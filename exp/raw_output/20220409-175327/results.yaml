@@ -1,0 +1,6 @@
+- app_alice:
+    secret_key:
+    - 1
+  app_bob:
+    secret_key:
+    - 1
