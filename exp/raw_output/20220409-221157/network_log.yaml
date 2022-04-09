@@ -11,9 +11,9 @@
   QID:
   - 0
   - 0
-  SIT: 3879.0
+  SIT: 4311.0
   TYP: null
-  WCT: '2022-04-09 22:40:46.768634'
+  WCT: '2022-04-09 22:11:58.000392'
 - BAS: null
   INS: epr_EntanglementStage.FINISH
   LOG: entanglement of type 0 created between amsterdam and leiden
@@ -24,7 +24,7 @@
   PTH:
   - amsterdam-leiden
   QGR:
-    8752677938210:
+    8762388785186:
       is_entangled: true
       qubit_ids:
       - - alice
@@ -35,6 +35,6 @@
   QID:
   - 0
   - 0
-  SIT: 4879.0
+  SIT: 5311.0
   TYP: epr_EntanglementType.CK
-  WCT: '2022-04-09 22:40:46.826887'
+  WCT: '2022-04-09 22:11:58.016943'

@@ -6,11 +6,23 @@ from netqasm.sdk.external import NetQASMConnection, Socket
 
 from epr_socket import DerivedEPRSocket as EPRSocket
 
+f = open('/home/duarte/projects/QuTech/QCHACK2022/alice.txt', 'a')
+
 logger = get_netqasm_logger()
 
-# fileHandler = logging.FileHandler("logfile_alice.log")
-# logger.setLevel(logging.INFO)
-# logger.addHandler(fileHandler)
+#fileHandler = logging.FileHandler("logfile_alice.log")
+#logger.setLevel(logging.INFO)
+#logger.addHandler(fileHandler)
+
+#test_probability   = 0.5    # fraction of shared bits that are tested 
+mismatch_threshold = 0.5  # allowed fraction of mismatches bewteen bits (above this, no secure key is generated) 
+
+def flip(p):
+    # Biased coin - probability of 0 is 1-p and probability of 1 is p
+    if random.random() < p:
+        return 1
+    else: 
+        return 0
 
 
 def main(app_config=None, key_length=16):
@@ -32,6 +44,7 @@ def main(app_config=None, key_length=16):
         n = 0
         bases = []
         key = []
+        matches = []
         while n < key_length:
             # Create an entangled pair using the EPR socket to bob
             q_ent = epr_socket.create_keep()[0]
@@ -52,22 +65,38 @@ def main(app_config=None, key_length=16):
             socket.send(str(basis))
 
             # Receive the outcome from bob
-            accept_bit = socket.recv()
+            accept_bit = socket.recv() #can be 'Y' (to accept), 'N' (to reject) or '0'/'1' (to test)
             alice.flush()
 
             if accept_bit == "Y":
                 key.append(m_alice)
                 n += 1
-            else:
+            elif accept_bit == "N":
                 pass
+            else: #test if there is a mismatch
+                if m_alice == int(accept_bit):
+                    test_result = 1
+                else:
+                    test_result = 0
+                matches.append(test_result)
+
+                #send result of test to bob
+                socket.send(test_result)
 
     # logger.info("ALICE BASES: {}".format(bases))
     # logger.info("ALICE KEY: {}".format(key))
 
+    mismatch_fraction = 1 - sum(matches) / len(matches)
+
     # RETURN THE SECRET KEY HERE
-    return {
-        "secret_key": key,
-    }
+    if mismatch_threshold > mismatch_threshold:
+        return {
+        "secret_key": None,
+        }
+    else:   
+        return {
+            "secret_key": key,
+        }
 
 
 if __name__ == "__main__":
