@@ -49,7 +49,7 @@ def main(app_config=None, key_length=16):
             m_alice = int(m_alice)
 
             # Send the outcome to bob
-            socket.send(str(m_alice) + str(basis))
+            socket.send(str(basis))
 
             # Receive the outcome from bob
             accept_bit = socket.recv()

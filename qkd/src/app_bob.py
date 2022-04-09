@@ -55,14 +55,14 @@ def main(app_config=None, key_length=16):
                 m_bob_corr = 1
 
             # Receive the outcome from alice
-            data_alice = list(socket.recv())
+            basis_alice = socket.recv()
             bob.flush()
-            m_alice, basis_alice = int(data_alice[0]), int(data_alice[1])
+            basis_alice = int(basis_alice)
 
             if basis_alice == basis:
                 accept_bit = 'Y'
-                assert m_bob_corr == m_alice, "Bits should be equal!"
-                key.append(m_alice)
+                #assert m_bob_corr == m_alice, "Bits should be equal!"
+                key.append(m_bob_corr)
                 n += 1
             else:
                 accept_bit = 'N'
