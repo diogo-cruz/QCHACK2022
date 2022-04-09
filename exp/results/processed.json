@@ -6,42 +6,42 @@
       {
         "app_alice": {
           "secret_key": [
-            0,
-            1,
-            1,
-            1,
-            1,
-            1,
-            0,
-            1,
-            1,
             1,
             0,
             1,
             1,
             0,
+            0,
+            0,
             1,
-            0
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
           ]
         },
         "app_bob": {
           "secret_key": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
             0,
             1,
             1,
             1,
             1,
-            1,
-            0,
-            1,
-            1,
-            1,
-            0,
-            1,
-            1,
-            0,
-            1,
-            0
+            1
           ]
         }
       }
@@ -78,14 +78,10 @@
           "amsterdam-leiden"
         ],
         "groups": {
-          "8780385485416": {
+          "8733280660473": {
             "qubits": [
               {
                 "node": "alice",
-                "id": 0
-              },
-              {
-                "node": "bob",
                 "id": 0
               }
             ],
@@ -97,105 +93,6 @@
       {
         "command": "classical-message",
         "message": "0",
-        "from": {
-          "node": "alice"
-        },
-        "to": {
-          "node": "bob"
-        }
-      },
-      {
-        "command": "classical-message",
-        "message": "Y",
-        "from": {
-          "node": "bob"
-        },
-        "to": {
-          "node": "alice"
-        }
-      },
-      {
-        "command": "entanglement",
-        "action": "start",
-        "from": {
-          "node": "amsterdam",
-          "id": 0
-        },
-        "to": {
-          "node": "leiden",
-          "id": 0
-        },
-        "channels": [
-          "amsterdam-leiden"
-        ],
-        "groups": {
-          "8780385493086": {
-            "qubits": [
-              {
-                "node": "bob",
-                "id": 0
-              }
-            ],
-            "is_entangled": false,
-            "state": [
-              [
-                {
-                  "re": 0.0,
-                  "im": 0.0
-                },
-                {
-                  "re": 0.0,
-                  "im": 0.0
-                }
-              ],
-              [
-                {
-                  "re": 0.0,
-                  "im": 0.0
-                },
-                {
-                  "re": 1.0,
-                  "im": 0.0
-                }
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "command": "entanglement",
-        "action": "success",
-        "from": {
-          "node": "amsterdam",
-          "id": 0
-        },
-        "to": {
-          "node": "leiden",
-          "id": 0
-        },
-        "channels": [
-          "amsterdam-leiden"
-        ],
-        "groups": {
-          "8780385506749": {
-            "qubits": [
-              {
-                "node": "alice",
-                "id": 0
-              },
-              {
-                "node": "bob",
-                "id": 0
-              }
-            ],
-            "is_entangled": true,
-            "state": null
-          }
-        }
-      },
-      {
-        "command": "classical-message",
-        "message": "1",
         "from": {
           "node": "alice"
         },
@@ -228,7 +125,7 @@
           "amsterdam-leiden"
         ],
         "groups": {
-          "8780385506749": {
+          "8733280653551": {
             "qubits": [
               {
                 "node": "bob",
@@ -276,601 +173,7 @@
           "amsterdam-leiden"
         ],
         "groups": {
-          "8780385497885": {
-            "qubits": [
-              {
-                "node": "alice",
-                "id": 0
-              },
-              {
-                "node": "bob",
-                "id": 0
-              }
-            ],
-            "is_entangled": true,
-            "state": null
-          }
-        }
-      },
-      {
-        "command": "classical-message",
-        "message": "0",
-        "from": {
-          "node": "alice"
-        },
-        "to": {
-          "node": "bob"
-        }
-      },
-      {
-        "command": "classical-message",
-        "message": "Y",
-        "from": {
-          "node": "bob"
-        },
-        "to": {
-          "node": "alice"
-        }
-      },
-      {
-        "command": "entanglement",
-        "action": "start",
-        "from": {
-          "node": "amsterdam",
-          "id": 0
-        },
-        "to": {
-          "node": "leiden",
-          "id": 0
-        },
-        "channels": [
-          "amsterdam-leiden"
-        ],
-        "groups": {
-          "8780385496494": {
-            "qubits": [
-              {
-                "node": "bob",
-                "id": 0
-              }
-            ],
-            "is_entangled": false,
-            "state": [
-              [
-                {
-                  "re": 1.0,
-                  "im": 0.0
-                },
-                {
-                  "re": 0.0,
-                  "im": 0.0
-                }
-              ],
-              [
-                {
-                  "re": 0.0,
-                  "im": 0.0
-                },
-                {
-                  "re": 0.0,
-                  "im": 0.0
-                }
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "command": "entanglement",
-        "action": "success",
-        "from": {
-          "node": "amsterdam",
-          "id": 0
-        },
-        "to": {
-          "node": "leiden",
-          "id": 0
-        },
-        "channels": [
-          "amsterdam-leiden"
-        ],
-        "groups": {
-          "8780385498000": {
-            "qubits": [
-              {
-                "node": "alice",
-                "id": 0
-              },
-              {
-                "node": "bob",
-                "id": 0
-              }
-            ],
-            "is_entangled": true,
-            "state": null
-          }
-        }
-      },
-      {
-        "command": "classical-message",
-        "message": "1",
-        "from": {
-          "node": "alice"
-        },
-        "to": {
-          "node": "bob"
-        }
-      },
-      {
-        "command": "classical-message",
-        "message": "N",
-        "from": {
-          "node": "bob"
-        },
-        "to": {
-          "node": "alice"
-        }
-      },
-      {
-        "command": "entanglement",
-        "action": "start",
-        "from": {
-          "node": "amsterdam",
-          "id": 0
-        },
-        "to": {
-          "node": "leiden",
-          "id": 0
-        },
-        "channels": [
-          "amsterdam-leiden"
-        ],
-        "groups": {
-          "8780385498000": {
-            "qubits": [
-              {
-                "node": "bob",
-                "id": 0
-              }
-            ],
-            "is_entangled": false,
-            "state": [
-              [
-                {
-                  "re": 1.0,
-                  "im": 0.0
-                },
-                {
-                  "re": 0.0,
-                  "im": 0.0
-                }
-              ],
-              [
-                {
-                  "re": 0.0,
-                  "im": 0.0
-                },
-                {
-                  "re": 0.0,
-                  "im": 0.0
-                }
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "command": "entanglement",
-        "action": "success",
-        "from": {
-          "node": "amsterdam",
-          "id": 0
-        },
-        "to": {
-          "node": "leiden",
-          "id": 0
-        },
-        "channels": [
-          "amsterdam-leiden"
-        ],
-        "groups": {
-          "8780385498105": {
-            "qubits": [
-              {
-                "node": "alice",
-                "id": 0
-              },
-              {
-                "node": "bob",
-                "id": 0
-              }
-            ],
-            "is_entangled": true,
-            "state": null
-          }
-        }
-      },
-      {
-        "command": "classical-message",
-        "message": "1",
-        "from": {
-          "node": "alice"
-        },
-        "to": {
-          "node": "bob"
-        }
-      },
-      {
-        "command": "classical-message",
-        "message": "Y",
-        "from": {
-          "node": "bob"
-        },
-        "to": {
-          "node": "alice"
-        }
-      },
-      {
-        "command": "entanglement",
-        "action": "start",
-        "from": {
-          "node": "amsterdam",
-          "id": 0
-        },
-        "to": {
-          "node": "leiden",
-          "id": 0
-        },
-        "channels": [
-          "amsterdam-leiden"
-        ],
-        "groups": {
-          "8780385498105": {
-            "qubits": [
-              {
-                "node": "bob",
-                "id": 0
-              }
-            ],
-            "is_entangled": false,
-            "state": [
-              [
-                {
-                  "re": 1.0,
-                  "im": 0.0
-                },
-                {
-                  "re": 0.0,
-                  "im": 0.0
-                }
-              ],
-              [
-                {
-                  "re": 0.0,
-                  "im": 0.0
-                },
-                {
-                  "re": 0.0,
-                  "im": 0.0
-                }
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "command": "entanglement",
-        "action": "success",
-        "from": {
-          "node": "amsterdam",
-          "id": 0
-        },
-        "to": {
-          "node": "leiden",
-          "id": 0
-        },
-        "channels": [
-          "amsterdam-leiden"
-        ],
-        "groups": {
-          "8780385468801": {
-            "qubits": [
-              {
-                "node": "alice",
-                "id": 0
-              },
-              {
-                "node": "bob",
-                "id": 0
-              }
-            ],
-            "is_entangled": true,
-            "state": null
-          }
-        }
-      },
-      {
-        "command": "classical-message",
-        "message": "0",
-        "from": {
-          "node": "alice"
-        },
-        "to": {
-          "node": "bob"
-        }
-      },
-      {
-        "command": "classical-message",
-        "message": "Y",
-        "from": {
-          "node": "bob"
-        },
-        "to": {
-          "node": "alice"
-        }
-      },
-      {
-        "command": "entanglement",
-        "action": "start",
-        "from": {
-          "node": "amsterdam",
-          "id": 0
-        },
-        "to": {
-          "node": "leiden",
-          "id": 0
-        },
-        "channels": [
-          "amsterdam-leiden"
-        ],
-        "groups": {
-          "8780385468801": {
-            "qubits": [
-              {
-                "node": "bob",
-                "id": 0
-              }
-            ],
-            "is_entangled": false,
-            "state": [
-              [
-                {
-                  "re": 1.0,
-                  "im": 0.0
-                },
-                {
-                  "re": 0.0,
-                  "im": 0.0
-                }
-              ],
-              [
-                {
-                  "re": 0.0,
-                  "im": 0.0
-                },
-                {
-                  "re": 0.0,
-                  "im": 0.0
-                }
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "command": "entanglement",
-        "action": "success",
-        "from": {
-          "node": "amsterdam",
-          "id": 0
-        },
-        "to": {
-          "node": "leiden",
-          "id": 0
-        },
-        "channels": [
-          "amsterdam-leiden"
-        ],
-        "groups": {
-          "8780385468911": {
-            "qubits": [
-              {
-                "node": "alice",
-                "id": 0
-              },
-              {
-                "node": "bob",
-                "id": 0
-              }
-            ],
-            "is_entangled": true,
-            "state": null
-          }
-        }
-      },
-      {
-        "command": "classical-message",
-        "message": "0",
-        "from": {
-          "node": "alice"
-        },
-        "to": {
-          "node": "bob"
-        }
-      },
-      {
-        "command": "classical-message",
-        "message": "Y",
-        "from": {
-          "node": "bob"
-        },
-        "to": {
-          "node": "alice"
-        }
-      },
-      {
-        "command": "entanglement",
-        "action": "start",
-        "from": {
-          "node": "amsterdam",
-          "id": 0
-        },
-        "to": {
-          "node": "leiden",
-          "id": 0
-        },
-        "channels": [
-          "amsterdam-leiden"
-        ],
-        "groups": {
-          "8780385468911": {
-            "qubits": [
-              {
-                "node": "bob",
-                "id": 0
-              }
-            ],
-            "is_entangled": false,
-            "state": [
-              [
-                {
-                  "re": 1.0,
-                  "im": 0.0
-                },
-                {
-                  "re": 0.0,
-                  "im": 0.0
-                }
-              ],
-              [
-                {
-                  "re": 0.0,
-                  "im": 0.0
-                },
-                {
-                  "re": 0.0,
-                  "im": 0.0
-                }
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "command": "entanglement",
-        "action": "success",
-        "from": {
-          "node": "amsterdam",
-          "id": 0
-        },
-        "to": {
-          "node": "leiden",
-          "id": 0
-        },
-        "channels": [
-          "amsterdam-leiden"
-        ],
-        "groups": {
-          "8780385471075": {
-            "qubits": [
-              {
-                "node": "alice",
-                "id": 0
-              },
-              {
-                "node": "bob",
-                "id": 0
-              }
-            ],
-            "is_entangled": true,
-            "state": null
-          }
-        }
-      },
-      {
-        "command": "classical-message",
-        "message": "1",
-        "from": {
-          "node": "alice"
-        },
-        "to": {
-          "node": "bob"
-        }
-      },
-      {
-        "command": "classical-message",
-        "message": "N",
-        "from": {
-          "node": "bob"
-        },
-        "to": {
-          "node": "alice"
-        }
-      },
-      {
-        "command": "entanglement",
-        "action": "start",
-        "from": {
-          "node": "amsterdam",
-          "id": 0
-        },
-        "to": {
-          "node": "leiden",
-          "id": 0
-        },
-        "channels": [
-          "amsterdam-leiden"
-        ],
-        "groups": {
-          "8780385471075": {
-            "qubits": [
-              {
-                "node": "bob",
-                "id": 0
-              }
-            ],
-            "is_entangled": false,
-            "state": [
-              [
-                {
-                  "re": 1.0,
-                  "im": 0.0
-                },
-                {
-                  "re": 0.0,
-                  "im": 0.0
-                }
-              ],
-              [
-                {
-                  "re": 0.0,
-                  "im": 0.0
-                },
-                {
-                  "re": 0.0,
-                  "im": 0.0
-                }
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "command": "entanglement",
-        "action": "success",
-        "from": {
-          "node": "amsterdam",
-          "id": 0
-        },
-        "to": {
-          "node": "leiden",
-          "id": 0
-        },
-        "channels": [
-          "amsterdam-leiden"
-        ],
-        "groups": {
-          "8780385471190": {
+          "8733280638889": {
             "qubits": [
               {
                 "node": "alice",
@@ -921,7 +224,7 @@
           "amsterdam-leiden"
         ],
         "groups": {
-          "8780385471190": {
+          "8733280638739": {
             "qubits": [
               {
                 "node": "bob",
@@ -969,106 +272,7 @@
           "amsterdam-leiden"
         ],
         "groups": {
-          "8780385473871": {
-            "qubits": [
-              {
-                "node": "alice",
-                "id": 0
-              },
-              {
-                "node": "bob",
-                "id": 0
-              }
-            ],
-            "is_entangled": true,
-            "state": null
-          }
-        }
-      },
-      {
-        "command": "classical-message",
-        "message": "1",
-        "from": {
-          "node": "alice"
-        },
-        "to": {
-          "node": "bob"
-        }
-      },
-      {
-        "command": "classical-message",
-        "message": "Y",
-        "from": {
-          "node": "bob"
-        },
-        "to": {
-          "node": "alice"
-        }
-      },
-      {
-        "command": "entanglement",
-        "action": "start",
-        "from": {
-          "node": "amsterdam",
-          "id": 0
-        },
-        "to": {
-          "node": "leiden",
-          "id": 0
-        },
-        "channels": [
-          "amsterdam-leiden"
-        ],
-        "groups": {
-          "8780385473871": {
-            "qubits": [
-              {
-                "node": "bob",
-                "id": 0
-              }
-            ],
-            "is_entangled": false,
-            "state": [
-              [
-                {
-                  "re": 1.0,
-                  "im": 0.0
-                },
-                {
-                  "re": 0.0,
-                  "im": 0.0
-                }
-              ],
-              [
-                {
-                  "re": 0.0,
-                  "im": 0.0
-                },
-                {
-                  "re": 0.0,
-                  "im": 0.0
-                }
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "command": "entanglement",
-        "action": "success",
-        "from": {
-          "node": "amsterdam",
-          "id": 0
-        },
-        "to": {
-          "node": "leiden",
-          "id": 0
-        },
-        "channels": [
-          "amsterdam-leiden"
-        ],
-        "groups": {
-          "8780385473991": {
+          "8733280638969": {
             "qubits": [
               {
                 "node": "alice",
@@ -1119,7 +323,7 @@
           "amsterdam-leiden"
         ],
         "groups": {
-          "8780385473991": {
+          "8733280638969": {
             "qubits": [
               {
                 "node": "bob",
@@ -1167,7 +371,106 @@
           "amsterdam-leiden"
         ],
         "groups": {
-          "8780385476421": {
+          "8733280642227": {
+            "qubits": [
+              {
+                "node": "alice",
+                "id": 0
+              },
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": true,
+            "state": null
+          }
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "1",
+        "from": {
+          "node": "alice"
+        },
+        "to": {
+          "node": "bob"
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "Y",
+        "from": {
+          "node": "bob"
+        },
+        "to": {
+          "node": "alice"
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "start",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280642227": {
+            "qubits": [
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": false,
+            "state": [
+              [
+                {
+                  "re": 1.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                }
+              ],
+              [
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                }
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "success",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280642297": {
             "qubits": [
               {
                 "node": "alice",
@@ -1218,7 +521,7 @@
           "amsterdam-leiden"
         ],
         "groups": {
-          "8780385474026": {
+          "8733280642297": {
             "qubits": [
               {
                 "node": "bob",
@@ -1266,7 +569,898 @@
           "amsterdam-leiden"
         ],
         "groups": {
-          "8780385476531": {
+          "8733280614047": {
+            "qubits": [
+              {
+                "node": "alice",
+                "id": 0
+              },
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": true,
+            "state": null
+          }
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "1",
+        "from": {
+          "node": "alice"
+        },
+        "to": {
+          "node": "bob"
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "N",
+        "from": {
+          "node": "bob"
+        },
+        "to": {
+          "node": "alice"
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "start",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280614032": {
+            "qubits": [
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": false,
+            "state": [
+              [
+                {
+                  "re": 1.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                }
+              ],
+              [
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                }
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "success",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280614137": {
+            "qubits": [
+              {
+                "node": "alice",
+                "id": 0
+              },
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": true,
+            "state": null
+          }
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "0",
+        "from": {
+          "node": "alice"
+        },
+        "to": {
+          "node": "bob"
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "Y",
+        "from": {
+          "node": "bob"
+        },
+        "to": {
+          "node": "alice"
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "start",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280614007": {
+            "qubits": [
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": false,
+            "state": [
+              [
+                {
+                  "re": 1.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                }
+              ],
+              [
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                }
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "success",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280617099": {
+            "qubits": [
+              {
+                "node": "alice",
+                "id": 0
+              },
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": true,
+            "state": null
+          }
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "0",
+        "from": {
+          "node": "alice"
+        },
+        "to": {
+          "node": "bob"
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "N",
+        "from": {
+          "node": "bob"
+        },
+        "to": {
+          "node": "alice"
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "start",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280617099": {
+            "qubits": [
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": false,
+            "state": [
+              [
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                }
+              ],
+              [
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 1.0,
+                  "im": 0.0
+                }
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "success",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280617184": {
+            "qubits": [
+              {
+                "node": "alice",
+                "id": 0
+              },
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": true,
+            "state": null
+          }
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "1",
+        "from": {
+          "node": "alice"
+        },
+        "to": {
+          "node": "bob"
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "Y",
+        "from": {
+          "node": "bob"
+        },
+        "to": {
+          "node": "alice"
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "start",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280617184": {
+            "qubits": [
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": false,
+            "state": [
+              [
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                }
+              ],
+              [
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 1.0,
+                  "im": 0.0
+                }
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "success",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280619900": {
+            "qubits": [
+              {
+                "node": "alice",
+                "id": 0
+              },
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": true,
+            "state": null
+          }
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "0",
+        "from": {
+          "node": "alice"
+        },
+        "to": {
+          "node": "bob"
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "N",
+        "from": {
+          "node": "bob"
+        },
+        "to": {
+          "node": "alice"
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "start",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280619900": {
+            "qubits": [
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": false,
+            "state": [
+              [
+                {
+                  "re": 1.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                }
+              ],
+              [
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                }
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "success",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280620015": {
+            "qubits": [
+              {
+                "node": "alice",
+                "id": 0
+              },
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": true,
+            "state": null
+          }
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "1",
+        "from": {
+          "node": "alice"
+        },
+        "to": {
+          "node": "bob"
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "Y",
+        "from": {
+          "node": "bob"
+        },
+        "to": {
+          "node": "alice"
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "start",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280620015": {
+            "qubits": [
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": false,
+            "state": [
+              [
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                }
+              ],
+              [
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 1.0,
+                  "im": 0.0
+                }
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "success",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280622450": {
+            "qubits": [
+              {
+                "node": "alice",
+                "id": 0
+              },
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": true,
+            "state": null
+          }
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "0",
+        "from": {
+          "node": "alice"
+        },
+        "to": {
+          "node": "bob"
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "N",
+        "from": {
+          "node": "bob"
+        },
+        "to": {
+          "node": "alice"
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "start",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280619925": {
+            "qubits": [
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": false,
+            "state": [
+              [
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                }
+              ],
+              [
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 1.0,
+                  "im": 0.0
+                }
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "success",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280622565": {
+            "qubits": [
+              {
+                "node": "alice",
+                "id": 0
+              },
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": true,
+            "state": null
+          }
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "1",
+        "from": {
+          "node": "alice"
+        },
+        "to": {
+          "node": "bob"
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "N",
+        "from": {
+          "node": "bob"
+        },
+        "to": {
+          "node": "alice"
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "start",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280622565": {
+            "qubits": [
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": false,
+            "state": [
+              [
+                {
+                  "re": 1.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                }
+              ],
+              [
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                }
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "success",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280625246": {
+            "qubits": [
+              {
+                "node": "alice",
+                "id": 0
+              },
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": true,
+            "state": null
+          }
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "0",
+        "from": {
+          "node": "alice"
+        },
+        "to": {
+          "node": "bob"
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "N",
+        "from": {
+          "node": "bob"
+        },
+        "to": {
+          "node": "alice"
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "start",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280622500": {
+            "qubits": [
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": false,
+            "state": [
+              [
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                }
+              ],
+              [
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 1.0,
+                  "im": 0.0
+                }
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "success",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280625361": {
             "qubits": [
               {
                 "node": "alice",
@@ -1333,85 +1527,17 @@
           "amsterdam-leiden"
         ],
         "groups": {
-          "8780385476531": {
+          "8733280625356": {
             "qubits": [
               {
-                "node": "bob",
+                "node": "alice",
                 "id": 0
               }
             ],
-            "is_entangled": false,
-            "state": [
-              [
-                {
-                  "re": 1.0,
-                  "im": 0.0
-                },
-                {
-                  "re": 0.0,
-                  "im": 0.0
-                }
-              ],
-              [
-                {
-                  "re": 0.0,
-                  "im": 0.0
-                },
-                {
-                  "re": 0.0,
-                  "im": 0.0
-                }
-              ]
-            ]
+            "is_entangled": true,
+            "state": null
           },
-          "8780385476571": {
-            "qubits": [
-              {
-                "node": "alice",
-                "id": 0
-              }
-            ],
-            "is_entangled": true,
-            "state": null
-          }
-        }
-      },
-      {
-        "command": "classical-message",
-        "message": "0",
-        "from": {
-          "node": "alice"
-        },
-        "to": {
-          "node": "bob"
-        }
-      },
-      {
-        "command": "classical-message",
-        "message": "Y",
-        "from": {
-          "node": "bob"
-        },
-        "to": {
-          "node": "alice"
-        }
-      },
-      {
-        "command": "entanglement",
-        "action": "start",
-        "from": {
-          "node": "amsterdam",
-          "id": 0
-        },
-        "to": {
-          "node": "leiden",
-          "id": 0
-        },
-        "channels": [
-          "amsterdam-leiden"
-        ],
-        "groups": {
-          "8780385476571": {
+          "8733280625361": {
             "qubits": [
               {
                 "node": "bob",
@@ -1445,37 +1571,6 @@
         }
       },
       {
-        "command": "entanglement",
-        "action": "success",
-        "from": {
-          "node": "amsterdam",
-          "id": 0
-        },
-        "to": {
-          "node": "leiden",
-          "id": 0
-        },
-        "channels": [
-          "amsterdam-leiden"
-        ],
-        "groups": {
-          "8780385478810": {
-            "qubits": [
-              {
-                "node": "alice",
-                "id": 0
-              },
-              {
-                "node": "bob",
-                "id": 0
-              }
-            ],
-            "is_entangled": true,
-            "state": null
-          }
-        }
-      },
-      {
         "command": "classical-message",
         "message": "0",
         "from": {
@@ -1487,7 +1582,7 @@
       },
       {
         "command": "classical-message",
-        "message": "Y",
+        "message": "N",
         "from": {
           "node": "bob"
         },
@@ -1510,7 +1605,7 @@
           "amsterdam-leiden"
         ],
         "groups": {
-          "8780385478810": {
+          "8733280625356": {
             "qubits": [
               {
                 "node": "bob",
@@ -1521,7 +1616,7 @@
             "state": [
               [
                 {
-                  "re": 1.0,
+                  "re": 0.0,
                   "im": 0.0
                 },
                 {
@@ -1535,7 +1630,7 @@
                   "im": 0.0
                 },
                 {
-                  "re": 0.0,
+                  "re": 1.0,
                   "im": 0.0
                 }
               ]
@@ -1558,7 +1653,7 @@
           "amsterdam-leiden"
         ],
         "groups": {
-          "8780385478900": {
+          "8733280628162": {
             "qubits": [
               {
                 "node": "alice",
@@ -1609,7 +1704,205 @@
           "amsterdam-leiden"
         ],
         "groups": {
-          "8780385478900": {
+          "8733280628162": {
+            "qubits": [
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": false,
+            "state": [
+              [
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                }
+              ],
+              [
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 1.0,
+                  "im": 0.0
+                }
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "success",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280628187": {
+            "qubits": [
+              {
+                "node": "alice",
+                "id": 0
+              },
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": true,
+            "state": null
+          }
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "1",
+        "from": {
+          "node": "alice"
+        },
+        "to": {
+          "node": "bob"
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "Y",
+        "from": {
+          "node": "bob"
+        },
+        "to": {
+          "node": "alice"
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "start",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280628187": {
+            "qubits": [
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": false,
+            "state": [
+              [
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                }
+              ],
+              [
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 1.0,
+                  "im": 0.0
+                }
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "success",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280619182": {
+            "qubits": [
+              {
+                "node": "alice",
+                "id": 0
+              },
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": true,
+            "state": null
+          }
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "0",
+        "from": {
+          "node": "alice"
+        },
+        "to": {
+          "node": "bob"
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "Y",
+        "from": {
+          "node": "bob"
+        },
+        "to": {
+          "node": "alice"
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "start",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280619182": {
             "qubits": [
               {
                 "node": "bob",
@@ -1657,7 +1950,205 @@
           "amsterdam-leiden"
         ],
         "groups": {
-          "8780385483137": {
+          "8733280619257": {
+            "qubits": [
+              {
+                "node": "alice",
+                "id": 0
+              },
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": true,
+            "state": null
+          }
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "1",
+        "from": {
+          "node": "alice"
+        },
+        "to": {
+          "node": "bob"
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "Y",
+        "from": {
+          "node": "bob"
+        },
+        "to": {
+          "node": "alice"
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "start",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280619257": {
+            "qubits": [
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": false,
+            "state": [
+              [
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                }
+              ],
+              [
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 1.0,
+                  "im": 0.0
+                }
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "success",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280601498": {
+            "qubits": [
+              {
+                "node": "alice",
+                "id": 0
+              },
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": true,
+            "state": null
+          }
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "1",
+        "from": {
+          "node": "alice"
+        },
+        "to": {
+          "node": "bob"
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "N",
+        "from": {
+          "node": "bob"
+        },
+        "to": {
+          "node": "alice"
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "start",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280601498": {
+            "qubits": [
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": false,
+            "state": [
+              [
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                }
+              ],
+              [
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 1.0,
+                  "im": 0.0
+                }
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "success",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280601583": {
             "qubits": [
               {
                 "node": "alice",
@@ -1708,205 +2199,7 @@
           "amsterdam-leiden"
         ],
         "groups": {
-          "8780385483137": {
-            "qubits": [
-              {
-                "node": "bob",
-                "id": 0
-              }
-            ],
-            "is_entangled": false,
-            "state": [
-              [
-                {
-                  "re": 0.0,
-                  "im": 0.0
-                },
-                {
-                  "re": 0.0,
-                  "im": 0.0
-                }
-              ],
-              [
-                {
-                  "re": 0.0,
-                  "im": 0.0
-                },
-                {
-                  "re": 1.0,
-                  "im": 0.0
-                }
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "command": "entanglement",
-        "action": "success",
-        "from": {
-          "node": "amsterdam",
-          "id": 0
-        },
-        "to": {
-          "node": "leiden",
-          "id": 0
-        },
-        "channels": [
-          "amsterdam-leiden"
-        ],
-        "groups": {
-          "8780385483252": {
-            "qubits": [
-              {
-                "node": "alice",
-                "id": 0
-              },
-              {
-                "node": "bob",
-                "id": 0
-              }
-            ],
-            "is_entangled": true,
-            "state": null
-          }
-        }
-      },
-      {
-        "command": "classical-message",
-        "message": "1",
-        "from": {
-          "node": "alice"
-        },
-        "to": {
-          "node": "bob"
-        }
-      },
-      {
-        "command": "classical-message",
-        "message": "Y",
-        "from": {
-          "node": "bob"
-        },
-        "to": {
-          "node": "alice"
-        }
-      },
-      {
-        "command": "entanglement",
-        "action": "start",
-        "from": {
-          "node": "amsterdam",
-          "id": 0
-        },
-        "to": {
-          "node": "leiden",
-          "id": 0
-        },
-        "channels": [
-          "amsterdam-leiden"
-        ],
-        "groups": {
-          "8780385483252": {
-            "qubits": [
-              {
-                "node": "bob",
-                "id": 0
-              }
-            ],
-            "is_entangled": false,
-            "state": [
-              [
-                {
-                  "re": 0.0,
-                  "im": 0.0
-                },
-                {
-                  "re": 0.0,
-                  "im": 0.0
-                }
-              ],
-              [
-                {
-                  "re": 0.0,
-                  "im": 0.0
-                },
-                {
-                  "re": 1.0,
-                  "im": 0.0
-                }
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "command": "entanglement",
-        "action": "success",
-        "from": {
-          "node": "amsterdam",
-          "id": 0
-        },
-        "to": {
-          "node": "leiden",
-          "id": 0
-        },
-        "channels": [
-          "amsterdam-leiden"
-        ],
-        "groups": {
-          "8780385452658": {
-            "qubits": [
-              {
-                "node": "alice",
-                "id": 0
-              },
-              {
-                "node": "bob",
-                "id": 0
-              }
-            ],
-            "is_entangled": true,
-            "state": null
-          }
-        }
-      },
-      {
-        "command": "classical-message",
-        "message": "1",
-        "from": {
-          "node": "alice"
-        },
-        "to": {
-          "node": "bob"
-        }
-      },
-      {
-        "command": "classical-message",
-        "message": "Y",
-        "from": {
-          "node": "bob"
-        },
-        "to": {
-          "node": "alice"
-        }
-      },
-      {
-        "command": "entanglement",
-        "action": "start",
-        "from": {
-          "node": "amsterdam",
-          "id": 0
-        },
-        "to": {
-          "node": "leiden",
-          "id": 0
-        },
-        "channels": [
-          "amsterdam-leiden"
-        ],
-        "groups": {
-          "8780385452658": {
+          "8733280601583": {
             "qubits": [
               {
                 "node": "bob",
@@ -1954,7 +2247,7 @@
           "amsterdam-leiden"
         ],
         "groups": {
-          "8780385452778": {
+          "8733280604294": {
             "qubits": [
               {
                 "node": "alice",
@@ -2005,7 +2298,7 @@
           "amsterdam-leiden"
         ],
         "groups": {
-          "8780385452778": {
+          "8733280601588": {
             "qubits": [
               {
                 "node": "bob",
@@ -2053,7 +2346,7 @@
           "amsterdam-leiden"
         ],
         "groups": {
-          "8780385455710": {
+          "8733280604404": {
             "qubits": [
               {
                 "node": "alice",
@@ -2081,7 +2374,7 @@
       },
       {
         "command": "classical-message",
-        "message": "Y",
+        "message": "N",
         "from": {
           "node": "bob"
         },
@@ -2104,7 +2397,7 @@
           "amsterdam-leiden"
         ],
         "groups": {
-          "8780385452768": {
+          "8733280604404": {
             "qubits": [
               {
                 "node": "bob",
@@ -2152,7 +2445,7 @@
           "amsterdam-leiden"
         ],
         "groups": {
-          "8780385455820": {
+          "8733280607085": {
             "qubits": [
               {
                 "node": "alice",
@@ -2203,7 +2496,205 @@
           "amsterdam-leiden"
         ],
         "groups": {
-          "8780385455820": {
+          "8733280607085": {
+            "qubits": [
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": false,
+            "state": [
+              [
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                }
+              ],
+              [
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 1.0,
+                  "im": 0.0
+                }
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "success",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280607205": {
+            "qubits": [
+              {
+                "node": "alice",
+                "id": 0
+              },
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": true,
+            "state": null
+          }
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "0",
+        "from": {
+          "node": "alice"
+        },
+        "to": {
+          "node": "bob"
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "N",
+        "from": {
+          "node": "bob"
+        },
+        "to": {
+          "node": "alice"
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "start",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280607205": {
+            "qubits": [
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": false,
+            "state": [
+              [
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                }
+              ],
+              [
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 1.0,
+                  "im": 0.0
+                }
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "success",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280609886": {
+            "qubits": [
+              {
+                "node": "alice",
+                "id": 0
+              },
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": true,
+            "state": null
+          }
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "0",
+        "from": {
+          "node": "alice"
+        },
+        "to": {
+          "node": "bob"
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "N",
+        "from": {
+          "node": "bob"
+        },
+        "to": {
+          "node": "alice"
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "start",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280607105": {
             "qubits": [
               {
                 "node": "bob",
@@ -2251,7 +2742,7 @@
           "amsterdam-leiden"
         ],
         "groups": {
-          "8780385457994": {
+          "8733280610001": {
             "qubits": [
               {
                 "node": "alice",
@@ -2270,6 +2761,793 @@
       {
         "command": "classical-message",
         "message": "0",
+        "from": {
+          "node": "alice"
+        },
+        "to": {
+          "node": "bob"
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "Y",
+        "from": {
+          "node": "bob"
+        },
+        "to": {
+          "node": "alice"
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "start",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {}
+      },
+      {
+        "command": "entanglement",
+        "action": "success",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280609996": {
+            "qubits": [
+              {
+                "node": "alice",
+                "id": 0
+              }
+            ],
+            "is_entangled": true,
+            "state": null
+          },
+          "8733280610001": {
+            "qubits": [
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": false,
+            "state": [
+              [
+                {
+                  "re": 1.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                }
+              ],
+              [
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                }
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "0",
+        "from": {
+          "node": "alice"
+        },
+        "to": {
+          "node": "bob"
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "N",
+        "from": {
+          "node": "bob"
+        },
+        "to": {
+          "node": "alice"
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "start",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280609996": {
+            "qubits": [
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": false,
+            "state": [
+              [
+                {
+                  "re": 1.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                }
+              ],
+              [
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                }
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "success",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280611517": {
+            "qubits": [
+              {
+                "node": "alice",
+                "id": 0
+              },
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": true,
+            "state": null
+          }
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "1",
+        "from": {
+          "node": "alice"
+        },
+        "to": {
+          "node": "bob"
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "N",
+        "from": {
+          "node": "bob"
+        },
+        "to": {
+          "node": "alice"
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "start",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280611517": {
+            "qubits": [
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": false,
+            "state": [
+              [
+                {
+                  "re": 1.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                }
+              ],
+              [
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                }
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "success",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280611547": {
+            "qubits": [
+              {
+                "node": "alice",
+                "id": 0
+              },
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": true,
+            "state": null
+          }
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "0",
+        "from": {
+          "node": "alice"
+        },
+        "to": {
+          "node": "bob"
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "Y",
+        "from": {
+          "node": "bob"
+        },
+        "to": {
+          "node": "alice"
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "start",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280611547": {
+            "qubits": [
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": false,
+            "state": [
+              [
+                {
+                  "re": 1.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                }
+              ],
+              [
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                }
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "success",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280582820": {
+            "qubits": [
+              {
+                "node": "alice",
+                "id": 0
+              },
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": true,
+            "state": null
+          }
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "1",
+        "from": {
+          "node": "alice"
+        },
+        "to": {
+          "node": "bob"
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "Y",
+        "from": {
+          "node": "bob"
+        },
+        "to": {
+          "node": "alice"
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "start",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280582820": {
+            "qubits": [
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": false,
+            "state": [
+              [
+                {
+                  "re": 1.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                }
+              ],
+              [
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                }
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "success",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280582905": {
+            "qubits": [
+              {
+                "node": "alice",
+                "id": 0
+              },
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": true,
+            "state": null
+          }
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "1",
+        "from": {
+          "node": "alice"
+        },
+        "to": {
+          "node": "bob"
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "Y",
+        "from": {
+          "node": "bob"
+        },
+        "to": {
+          "node": "alice"
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "start",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280582905": {
+            "qubits": [
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": false,
+            "state": [
+              [
+                {
+                  "re": 1.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                }
+              ],
+              [
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                }
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "success",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280585370": {
+            "qubits": [
+              {
+                "node": "alice",
+                "id": 0
+              },
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": true,
+            "state": null
+          }
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "0",
+        "from": {
+          "node": "alice"
+        },
+        "to": {
+          "node": "bob"
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "N",
+        "from": {
+          "node": "bob"
+        },
+        "to": {
+          "node": "alice"
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "start",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280585370": {
+            "qubits": [
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": false,
+            "state": [
+              [
+                {
+                  "re": 1.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                }
+              ],
+              [
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                }
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "success",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280585455": {
+            "qubits": [
+              {
+                "node": "alice",
+                "id": 0
+              },
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": true,
+            "state": null
+          }
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "1",
+        "from": {
+          "node": "alice"
+        },
+        "to": {
+          "node": "bob"
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "N",
+        "from": {
+          "node": "bob"
+        },
+        "to": {
+          "node": "alice"
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "start",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280585455": {
+            "qubits": [
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": false,
+            "state": [
+              [
+                {
+                  "re": 1.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                }
+              ],
+              [
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                },
+                {
+                  "re": 0.0,
+                  "im": 0.0
+                }
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "command": "entanglement",
+        "action": "success",
+        "from": {
+          "node": "amsterdam",
+          "id": 0
+        },
+        "to": {
+          "node": "leiden",
+          "id": 0
+        },
+        "channels": [
+          "amsterdam-leiden"
+        ],
+        "groups": {
+          "8733280641414": {
+            "qubits": [
+              {
+                "node": "alice",
+                "id": 0
+              },
+              {
+                "node": "bob",
+                "id": 0
+              }
+            ],
+            "is_entangled": true,
+            "state": null
+          }
+        }
+      },
+      {
+        "command": "classical-message",
+        "message": "1",
         "from": {
           "node": "alice"
         },
