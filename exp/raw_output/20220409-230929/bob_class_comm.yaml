@@ -6,61 +6,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:09:59.678871'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:09:59.679033'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:09:59.679505'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:09:59.943725'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:09:59.943876'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:09:59.973010'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:00.198889'
+  WCT: '2022-04-09 23:09:30.462837'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 70
   INS: RECV
@@ -69,7 +15,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:00.304268'
+  WCT: '2022-04-09 23:09:30.462981'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 92
   INS: SEND
@@ -78,7 +24,7 @@
   REC: alice
   SEN: bob
   SOD: 0
-  WCT: '2022-04-09 23:10:00.304655'
+  WCT: '2022-04-09 23:09:30.468538'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 70
   INS: WAIT_RECV
@@ -87,7 +33,61 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:00.478189'
+  WCT: '2022-04-09 23:09:30.690188'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:30.798343'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:30.804261'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:31.055110'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:31.055240'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:31.074257'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:31.180740'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 70
   INS: RECV
@@ -96,34 +96,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:00.478339'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: Y'
-  MSG: Y
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:00.483928'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:00.661966'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 0'
-  MSG: '0'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:00.662148'
+  WCT: '2022-04-09 23:09:31.180822'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 92
   INS: SEND
@@ -132,7 +105,7 @@
   REC: alice
   SEN: bob
   SOD: 0
-  WCT: '2022-04-09 23:10:00.668035'
+  WCT: '2022-04-09 23:09:31.191303'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 70
   INS: WAIT_RECV
@@ -141,7 +114,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:00.783356'
+  WCT: '2022-04-09 23:09:31.331056'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 70
   INS: RECV
@@ -150,7 +123,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:00.783594'
+  WCT: '2022-04-09 23:09:31.331129'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 92
   INS: SEND
@@ -159,7 +132,7 @@
   REC: alice
   SEN: bob
   SOD: 0
-  WCT: '2022-04-09 23:10:00.794581'
+  WCT: '2022-04-09 23:09:31.337613'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 98
   INS: WAIT_RECV
@@ -168,7 +141,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:00.812631'
+  WCT: '2022-04-09 23:09:31.338095'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 98
   INS: RECV
@@ -177,7 +150,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:01.035937'
+  WCT: '2022-04-09 23:09:31.586084'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 70
   INS: WAIT_RECV
@@ -186,7 +159,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:01.100807'
+  WCT: '2022-04-09 23:09:31.635338'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 70
   INS: RECV
@@ -195,133 +168,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:01.100953'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: 0'
-  MSG: '0'
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:01.122094'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 98
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:01.122951'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 98
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:01.325970'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:01.383590'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 0'
-  MSG: '0'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:01.383689'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: Y'
-  MSG: Y
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:01.405180'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:01.492089'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 0'
-  MSG: '0'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:01.492290'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:01.513821'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:01.688288'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:01.688509'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:01.694258'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:01.889533'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:01.889821'
+  WCT: '2022-04-09 23:09:31.635455'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 92
   INS: SEND
@@ -330,7 +177,7 @@
   REC: alice
   SEN: bob
   SOD: 0
-  WCT: '2022-04-09 23:10:01.907476'
+  WCT: '2022-04-09 23:09:31.646203'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 98
   INS: WAIT_RECV
@@ -339,7 +186,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:01.944188'
+  WCT: '2022-04-09 23:09:31.651895'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 98
   INS: RECV
@@ -348,7 +195,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:02.049743'
+  WCT: '2022-04-09 23:09:31.766768'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 70
   INS: WAIT_RECV
@@ -357,7 +204,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:02.128621'
+  WCT: '2022-04-09 23:09:31.895216'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 70
   INS: RECV
@@ -366,7 +213,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:02.128739'
+  WCT: '2022-04-09 23:09:31.895345'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 92
   INS: SEND
@@ -375,7 +222,7 @@
   REC: alice
   SEN: bob
   SOD: 0
-  WCT: '2022-04-09 23:10:02.135132'
+  WCT: '2022-04-09 23:09:31.906467'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 70
   INS: WAIT_RECV
@@ -384,7 +231,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:02.308410'
+  WCT: '2022-04-09 23:09:32.092988'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 70
   INS: RECV
@@ -393,7 +240,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:02.308487'
+  WCT: '2022-04-09 23:09:32.093116'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 92
   INS: SEND
@@ -402,7 +249,7 @@
   REC: alice
   SEN: bob
   SOD: 0
-  WCT: '2022-04-09 23:10:02.324068'
+  WCT: '2022-04-09 23:09:32.103700'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 70
   INS: WAIT_RECV
@@ -411,52 +258,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:02.595457'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 0'
-  MSG: '0'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:02.595716'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: 0'
-  MSG: '0'
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:02.602462'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 98
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:02.613709'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 98
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:02.715317'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:02.778350'
+  WCT: '2022-04-09 23:09:32.427826'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 70
   INS: RECV
@@ -465,52 +267,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:02.778431'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: 0'
-  MSG: '0'
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:02.789211'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 98
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:02.799669'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 98
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:02.901732'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:02.944761'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 0'
-  MSG: '0'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:02.944836'
+  WCT: '2022-04-09 23:09:32.427959'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 92
   INS: SEND
@@ -519,7 +276,7 @@
   REC: alice
   SEN: bob
   SOD: 0
-  WCT: '2022-04-09 23:10:02.950222'
+  WCT: '2022-04-09 23:09:32.458905'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 70
   INS: WAIT_RECV
@@ -528,7 +285,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:03.109815'
+  WCT: '2022-04-09 23:09:32.721793'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 70
   INS: RECV
@@ -537,394 +294,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:03.258669'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: 0'
-  MSG: '0'
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:03.264027'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 98
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:03.289944'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 98
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:03.290070'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:03.466407'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:03.466470'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:03.492238'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:03.695263'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:03.695334'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:03.710852'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:03.965564'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 0'
-  MSG: '0'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:03.965647'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:03.976130'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:04.121550'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:04.229220'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:04.260281'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:04.563121'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:04.563197'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:04.583974'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:04.885612'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:04.885708'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:04.914517'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:05.166522'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:05.274188'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: Y'
-  MSG: Y
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:05.274519'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:05.387139'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 0'
-  MSG: '0'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:05.387213'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: 0'
-  MSG: '0'
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:05.407766'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 98
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:05.449950'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 98
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:05.572840'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:05.625718'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 0'
-  MSG: '0'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:05.625790'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:05.631305'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:05.731163'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 0'
-  MSG: '0'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:05.731282'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:05.742123'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:05.932692'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 0'
-  MSG: '0'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:05.932982'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:05.936590'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:06.146239'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:06.146313'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:06.170873'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:06.230547'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:06.230675'
+  WCT: '2022-04-09 23:09:32.722020'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 92
   INS: SEND
@@ -933,7 +303,7 @@
   REC: alice
   SEN: bob
   SOD: 0
-  WCT: '2022-04-09 23:10:06.263648'
+  WCT: '2022-04-09 23:09:32.732541'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 98
   INS: WAIT_RECV
@@ -942,16 +312,16 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:06.269221'
+  WCT: '2022-04-09 23:09:32.775646'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 98
   INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
+  LOG: 'Message received from alice: 0'
+  MSG: '0'
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:06.523776'
+  WCT: '2022-04-09 23:09:32.894700'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 70
   INS: WAIT_RECV
@@ -960,34 +330,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:06.567029'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:06.567145'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:06.599083'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:06.813774'
+  WCT: '2022-04-09 23:09:32.994233'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 70
   INS: RECV
@@ -996,34 +339,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:06.813903'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:06.814224'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:07.046977'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 0'
-  MSG: '0'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:07.047125'
+  WCT: '2022-04-09 23:09:32.994319'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 92
   INS: SEND
@@ -1032,7 +348,7 @@
   REC: alice
   SEN: bob
   SOD: 0
-  WCT: '2022-04-09 23:10:07.047579'
+  WCT: '2022-04-09 23:09:33.006703'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 70
   INS: WAIT_RECV
@@ -1041,16 +357,16 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:07.272007'
+  WCT: '2022-04-09 23:09:33.212438'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 70
   INS: RECV
-  LOG: 'Message received from alice: 0'
-  MSG: '0'
+  LOG: 'Message received from alice: 1'
+  MSG: '1'
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:07.272142'
+  WCT: '2022-04-09 23:09:33.212543'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 92
   INS: SEND
@@ -1059,7 +375,7 @@
   REC: alice
   SEN: bob
   SOD: 0
-  WCT: '2022-04-09 23:10:07.315536'
+  WCT: '2022-04-09 23:09:33.242353'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 70
   INS: WAIT_RECV
@@ -1068,7 +384,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:07.596362'
+  WCT: '2022-04-09 23:09:33.509997'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 70
   INS: RECV
@@ -1077,7 +393,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:07.596607'
+  WCT: '2022-04-09 23:09:33.510108'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 92
   INS: SEND
@@ -1086,7 +402,7 @@
   REC: alice
   SEN: bob
   SOD: 0
-  WCT: '2022-04-09 23:10:07.603053'
+  WCT: '2022-04-09 23:09:33.530322'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 98
   INS: WAIT_RECV
@@ -1095,7 +411,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:07.615837'
+  WCT: '2022-04-09 23:09:33.535939'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 98
   INS: RECV
@@ -1104,7 +420,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:07.759354'
+  WCT: '2022-04-09 23:09:33.688723'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 70
   INS: WAIT_RECV
@@ -1113,61 +429,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:07.950901'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:07.951069'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:07.957907'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:08.212805'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:08.212923'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: Y'
-  MSG: Y
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:08.238078'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:08.438758'
+  WCT: '2022-04-09 23:09:33.730818'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 70
   INS: RECV
@@ -1176,7 +438,88 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:08.439011'
+  WCT: '2022-04-09 23:09:33.730945'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:33.731281'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:33.952574'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:33.952661'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: Y'
+  MSG: Y
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:33.958761'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:34.224127'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:34.224263'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:34.250757'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:34.422469'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:34.422589'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 92
   INS: SEND
@@ -1185,7 +528,7 @@
   REC: alice
   SEN: bob
   SOD: 0
-  WCT: '2022-04-09 23:10:08.444897'
+  WCT: '2022-04-09 23:09:34.433128'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 98
   INS: WAIT_RECV
@@ -1194,7 +537,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:08.456247'
+  WCT: '2022-04-09 23:09:34.448848'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 98
   INS: RECV
@@ -1203,7 +546,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:08.562665'
+  WCT: '2022-04-09 23:09:34.568378'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 70
   INS: WAIT_RECV
@@ -1212,133 +555,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:08.758248'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:08.758324'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: Y'
-  MSG: Y
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:08.769060'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:08.874512'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:08.980925'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:09.020696'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:09.102602'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:09.102734'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:09.103081'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:09.480420'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:09.480534'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: 1'
-  MSG: '1'
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:09.504988'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 98
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:09.516100'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 98
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:09.624450'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:09.701847'
+  WCT: '2022-04-09 23:09:34.672399'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 70
   INS: RECV
@@ -1347,61 +564,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:09.702079'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:09.719610'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:10.049101'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 0'
-  MSG: '0'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:10.049184'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: Y'
-  MSG: Y
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:10.092189'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:10.236301'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 0'
-  MSG: '0'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:10.236431'
+  WCT: '2022-04-09 23:09:34.672606'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 92
   INS: SEND
@@ -1410,7 +573,7 @@
   REC: alice
   SEN: bob
   SOD: 0
-  WCT: '2022-04-09 23:10:10.241929'
+  WCT: '2022-04-09 23:09:34.689216'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 98
   INS: WAIT_RECV
@@ -1419,7 +582,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:10.242250'
+  WCT: '2022-04-09 23:09:34.694656'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 98
   INS: RECV
@@ -1428,7 +591,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:10.350677'
+  WCT: '2022-04-09 23:09:34.815662'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 70
   INS: WAIT_RECV
@@ -1437,52 +600,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:10.424805'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 0'
-  MSG: '0'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:10.424896'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: 1'
-  MSG: '1'
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:10.436374'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 98
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:10.481720'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 98
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:10.610435'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:10.674259'
+  WCT: '2022-04-09 23:09:34.888781'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 70
   INS: RECV
@@ -1491,160 +609,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:10.674374'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: Y'
-  MSG: Y
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:10.675070'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:10.881412'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:10.881505'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: 1'
-  MSG: '1'
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:10.887053'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 98
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:10.892886'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 98
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:11.007185'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:11.052814'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:11.153295'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:11.164365'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:11.342724'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:11.343068'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:11.356909'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:11.446213'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 0'
-  MSG: '0'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:11.446349'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: Y'
-  MSG: Y
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:11.467743'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:11.656865'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:11.656972'
+  WCT: '2022-04-09 23:09:34.889054'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 92
   INS: SEND
@@ -1653,7 +618,7 @@
   REC: alice
   SEN: bob
   SOD: 0
-  WCT: '2022-04-09 23:10:11.710090'
+  WCT: '2022-04-09 23:09:34.889597'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 98
   INS: WAIT_RECV
@@ -1662,7 +627,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:11.731954'
+  WCT: '2022-04-09 23:09:34.910673'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 98
   INS: RECV
@@ -1671,7 +636,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:11.841677'
+  WCT: '2022-04-09 23:09:35.015323'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 70
   INS: WAIT_RECV
@@ -1680,7 +645,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:11.866306'
+  WCT: '2022-04-09 23:09:35.055186'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 70
   INS: RECV
@@ -1689,16 +654,16 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:11.866528'
+  WCT: '2022-04-09 23:09:35.168573'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 92
   INS: SEND
-  LOG: 'Send classical message to alice: Y'
-  MSG: Y
+  LOG: 'Send classical message to alice: N'
+  MSG: N
   REC: alice
   SEN: bob
   SOD: 0
-  WCT: '2022-04-09 23:10:11.873269'
+  WCT: '2022-04-09 23:09:35.179274'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 70
   INS: WAIT_RECV
@@ -1707,7 +672,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:12.066549'
+  WCT: '2022-04-09 23:09:35.327722'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 70
   INS: RECV
@@ -1716,592 +681,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:12.066681'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:12.087162'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:12.177242'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 0'
-  MSG: '0'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:12.177362'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:12.182988'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:12.434189'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:12.434557'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:12.474619'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:12.682715'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 0'
-  MSG: '0'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:12.682786'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:12.718700'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:12.929582'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:13.042254'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:13.070626'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:13.253534'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:13.253730'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:13.254339'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:13.505284'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:13.505415'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:13.516114'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:13.594755'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:13.712224'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:13.720465'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:13.892486'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:13.892566'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:14.006517'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:14.230957'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:14.231011'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:14.251709'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:14.504476'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 0'
-  MSG: '0'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:14.504567'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:14.520299'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:14.954514'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:14.954622'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: Y'
-  MSG: Y
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:14.965272'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:15.074895'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:15.075072'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:15.075626'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:15.400113'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 0'
-  MSG: '0'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:15.400285'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:15.419495'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:15.590146'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:15.590585'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:15.622078'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:15.746654'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 0'
-  MSG: '0'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:15.746941'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:15.752606'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:15.949543'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 0'
-  MSG: '0'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:15.949692'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: Y'
-  MSG: Y
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:15.987837'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:16.165444'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 0'
-  MSG: '0'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:16.165550'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: Y'
-  MSG: Y
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:16.186459'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:16.347444'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:16.347521'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: 0'
-  MSG: '0'
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:16.347741'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 98
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:16.368463'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 98
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:16.523001'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:16.597189'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:16.719685'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:16.725170'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:16.865800'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 0'
-  MSG: '0'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:16.865900'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:16.903122'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:17.103465'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 0'
-  MSG: '0'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:17.215667'
+  WCT: '2022-04-09 23:09:35.327803'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 92
   INS: SEND
@@ -2310,7 +690,7 @@
   REC: alice
   SEN: bob
   SOD: 0
-  WCT: '2022-04-09 23:10:17.226266'
+  WCT: '2022-04-09 23:09:35.361294'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 98
   INS: WAIT_RECV
@@ -2319,7 +699,259 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:17.236770'
+  WCT: '2022-04-09 23:09:35.366721'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 98
+  INS: RECV
+  LOG: 'Message received from alice: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:35.487428'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:35.521992'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:35.522210'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: 1'
+  MSG: '1'
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:35.532833'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 98
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:35.543366'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 98
+  INS: RECV
+  LOG: 'Message received from alice: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:35.648462'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:35.789496'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:35.789665'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: Y'
+  MSG: Y
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:35.826542'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:35.942764'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:35.942936'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:35.948629'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:36.014304'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:36.014388'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:36.029958'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:36.233569'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:36.233662'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: Y'
+  MSG: Y
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:36.249232'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:36.560246'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:36.560320'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: Y'
+  MSG: Y
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:36.565669'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:36.934703'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:36.934944'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:36.935945'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:37.065661'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:37.065752'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: 0'
+  MSG: '0'
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:37.086480'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 98
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:37.097187'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 98
   INS: RECV
@@ -2328,7 +960,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:17.368629'
+  WCT: '2022-04-09 23:09:37.217444'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 70
   INS: WAIT_RECV
@@ -2337,61 +969,7 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:17.398200'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:17.398270'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:17.429091'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:17.643616'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: RECV
-  LOG: 'Message received from alice: 1'
-  MSG: '1'
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:17.643695'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 92
-  INS: SEND
-  LOG: 'Send classical message to alice: N'
-  MSG: N
-  REC: alice
-  SEN: bob
-  SOD: 0
-  WCT: '2022-04-09 23:10:17.649011'
-- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
-  HLN: 70
-  INS: WAIT_RECV
-  LOG: Waiting for a classical message from alice...
-  MSG: null
-  REC: bob
-  SEN: alice
-  SOD: 0
-  WCT: '2022-04-09 23:10:17.910234'
+  WCT: '2022-04-09 23:09:37.319196'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 70
   INS: RECV
@@ -2400,16 +978,16 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:17.910314'
+  WCT: '2022-04-09 23:09:37.319300'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 92
   INS: SEND
-  LOG: 'Send classical message to alice: Y'
-  MSG: Y
+  LOG: 'Send classical message to alice: N'
+  MSG: N
   REC: alice
   SEN: bob
   SOD: 0
-  WCT: '2022-04-09 23:10:17.920788'
+  WCT: '2022-04-09 23:09:37.324760'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 70
   INS: WAIT_RECV
@@ -2418,16 +996,97 @@
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:18.166277'
+  WCT: '2022-04-09 23:09:37.523432'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 70
   INS: RECV
-  LOG: 'Message received from alice: 0'
-  MSG: '0'
+  LOG: 'Message received from alice: 1'
+  MSG: '1'
   REC: bob
   SEN: alice
   SOD: 0
-  WCT: '2022-04-09 23:10:18.166364'
+  WCT: '2022-04-09 23:09:37.523561'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:37.528995'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:37.644391'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:37.644466'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:37.649797'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:37.785770'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:37.785863'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:37.796330'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:37.945626'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:37.945710'
 - HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
   HLN: 92
   INS: SEND
@@ -2436,4 +1095,1138 @@
   REC: alice
   SEN: bob
   SOD: 0
-  WCT: '2022-04-09 23:10:18.192229'
+  WCT: '2022-04-09 23:09:37.966425'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:38.137315'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:38.137471'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: Y'
+  MSG: Y
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:38.153451'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:38.288050'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:38.288155'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:38.365173'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:38.545088'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:38.545189'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: 0'
+  MSG: '0'
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:38.550721'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 98
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:38.566626'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 98
+  INS: RECV
+  LOG: 'Message received from alice: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:38.811324'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:38.857930'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:38.858152'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:38.871099'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:39.092112'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:39.092331'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:39.102987'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:39.289602'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:39.289792'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: Y'
+  MSG: Y
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:39.316422'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:39.510547'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:39.510659'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:39.529352'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:39.758216'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:39.758308'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:39.779899'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:40.028642'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:40.028744'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:40.028992'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:40.205272'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:40.205373'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: 0'
+  MSG: '0'
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:40.226067'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 98
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:40.304690'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 98
+  INS: RECV
+  LOG: 'Message received from alice: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:40.473415'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:40.546621'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:40.546722'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: Y'
+  MSG: Y
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:40.563101'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:40.679672'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:40.780340'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: Y'
+  MSG: Y
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:40.833380'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:41.183918'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:41.184034'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: 1'
+  MSG: '1'
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:41.277813'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 98
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:41.289008'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 98
+  INS: RECV
+  LOG: 'Message received from alice: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:41.391698'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:41.440520'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:41.440685'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: 1'
+  MSG: '1'
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:41.466566'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 98
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:41.487970'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 98
+  INS: RECV
+  LOG: 'Message received from alice: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:41.604497'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:41.642949'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:41.643079'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:41.663951'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:41.880353'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:41.880497'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: 0'
+  MSG: '0'
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:41.918508'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 98
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:41.934569'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 98
+  INS: RECV
+  LOG: 'Message received from alice: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:42.153058'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:42.228864'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:42.229020'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: Y'
+  MSG: Y
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:42.240163'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:42.503812'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:42.611707'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:42.622276'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:42.838837'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:42.838943'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:42.844957'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:43.138858'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:43.139067'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:43.175117'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:43.399832'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:43.399977'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:43.414233'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:43.677102'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:43.677215'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: Y'
+  MSG: Y
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:43.677608'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:43.974936'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:43.975131'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: Y'
+  MSG: Y
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:43.986642'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:44.155630'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:44.155747'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:44.189674'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:44.463497'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:44.463632'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:44.535003'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:44.695721'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:44.695802'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:44.731505'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:44.937124'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:44.937284'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: 0'
+  MSG: '0'
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:44.937944'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 98
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:44.943849'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 98
+  INS: RECV
+  LOG: 'Message received from alice: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:45.102855'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:45.171789'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:45.171882'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: 0'
+  MSG: '0'
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:45.177525'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 98
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:45.198458'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 98
+  INS: RECV
+  LOG: 'Message received from alice: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:45.310470'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:45.422721'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:45.422970'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:45.425063'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:45.853422'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:45.856248'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: Y'
+  MSG: Y
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:45.856841'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:46.234498'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:46.234612'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:46.245864'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:46.467404'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:46.568859'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: 1'
+  MSG: '1'
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:46.569832'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 98
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:46.570706'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 98
+  INS: RECV
+  LOG: 'Message received from alice: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:46.674270'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:46.735444'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:46.735683'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:46.753877'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:46.978919'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:46.979072'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: 0'
+  MSG: '0'
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:46.985021'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 98
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:46.991273'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 98
+  INS: RECV
+  LOG: 'Message received from alice: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:47.228754'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:47.283507'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:47.283608'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:47.321597'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from alice...
+  MSG: null
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:47.568471'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 70
+  INS: RECV
+  LOG: 'Message received from alice: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-09 23:09:47.568696'
+- HFL: /home/diogo/MEGA/IST/IT/Miscellaneous/QCHACK 2022/QCHACK2022/exp/input/app_bob.py
+  HLN: 92
+  INS: SEND
+  LOG: 'Send classical message to alice: Y'
+  MSG: Y
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-09 23:09:47.579305'

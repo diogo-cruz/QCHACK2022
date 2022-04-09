@@ -1,3 +1,5 @@
+import random
+
 from netqasm.sdk.qubit import Qubit
 
 class Eve:
@@ -17,4 +19,12 @@ class Eve:
         # When measuring make sure to use `inplace=True` when calling
         # `qubit.measure(inpace=True)` so that the qubit is still available when
         # delivered to the application. Otherwise, the qubit is released.
+        
+        # basis = random.randint(0, 1)
+        
+        # if basis:
+        #     qubit.H()
+            
+        # m_eve = qubit.measure(inplace = True)
+        
         pass

@@ -20,11 +20,11 @@ class Eve:
         # `qubit.measure(inpace=True)` so that the qubit is still available when
         # delivered to the application. Otherwise, the qubit is released.
         
-        basis = random.randint(0, 1)
+        # basis = random.randint(0, 1)
         
-        if basis:
-            qubit.H()
+        # if basis:
+        #     qubit.H()
             
-        m_eve = qubit.measure(inplace = True)
+        # m_eve = qubit.measure(inplace = True)
         
         pass

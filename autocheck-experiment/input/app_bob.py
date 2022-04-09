@@ -6,12 +6,23 @@ from netqasm.sdk.external import NetQASMConnection, Socket
 
 from epr_socket import DerivedEPRSocket as EPRSocket
 
-logger = get_netqasm_logger()
+#f = open('/home/duarte/projects/QuTech/QCHACK2022/bob.txt', 'a')
 
-# fileHandler = logging.FileHandler("logfile_bob.log")
-# logger.setLevel(logging.INFO)
-# logger.addHandler(fileHandler)
+logger = get_netqasm_logger("bob")
 
+fileHandler = logging.FileHandler("logfile_bob.log")
+logger.setLevel(logging.INFO)
+logger.addHandler(fileHandler)
+
+test_probability   = 0.5    # fraction of shared bits that are tested 
+mismatch_threshold = 0.14  # allowed fraction of mismatches bewteen bits (above this, no secure key is generated) 
+
+def flip(p):
+    # Biased coin - probability of 0 is 1-p and probability of 1 is p
+    if random.random() < p:
+        return 1
+    else: 
+        return 0
 
 def main(app_config=None, key_length=16):
     # Socket for classical communication
@@ -27,11 +38,12 @@ def main(app_config=None, key_length=16):
 
     with bob:
         # IMPLEMENT YOUR SOLUTION HERE
-        #logger.info("IMPLEMENT YOUR SOLUTION HERE - BOB")
+        logger.info("IMPLEMENT YOUR SOLUTION HERE - BOB")
 
         n = 0
         bases = []
         key = []
+        matches = []
         while n < key_length:
             # Receive an entangled pair using the EPR socket to alice
             q_ent = epr_socket.recv_keep()[0]
@@ -60,23 +72,49 @@ def main(app_config=None, key_length=16):
             basis_alice = int(basis_alice)
 
             if basis_alice == basis:
-                accept_bit = 'Y'
                 #assert m_bob_corr == m_alice, "Bits should be equal!"
-                key.append(m_bob_corr)
-                n += 1
+                test = flip(test_probability) # whether they test this bit
+                
+                #print(test, file = f)
+
+                if test:
+                    accept_bit = str(m_bob_corr) #for alice to compare with hers
+                else:
+                    accept_bit = 'Y' #tells alice to accept
+                    key.append(m_bob_corr)
+                    n += 1
             else:
-                accept_bit = 'N'
+                accept_bit = 'N' #tells alice to reject
+
+            logger.info("B0")
 
             # Send the outcome to alice
             socket.send(accept_bit)
 
-    # logger.info("BOB BASES: {}".format(bases))
-    # logger.info("BOB KEY: {}".format(key))
+            logger.info("B1")
+
+            if accept_bit == '0' or accept_bit == '1':
+                #Receive result of test
+                test_result = socket.recv()
+                bob.flush()
+                matches.append(int(test_result))
+
+    logger.info("BOB BASES: {}".format(bases))
+    logger.info("BOB KEY: {}".format(key))
+
+    mismatch_fraction = 1 - sum(matches) / len(matches)
+
+    logger.info("BOB FRACTION: {}".format(mismatch_fraction))
 
     # RETURN THE SECRET KEY HERE
-    return {
-        "secret_key": key,
-    }
+    if mismatch_fraction > mismatch_threshold:
+        return {
+        "secret_key": None,
+        }
+    else:   
+        return {
+            "secret_key": key,
+        }
 
 
 if __name__ == "__main__":

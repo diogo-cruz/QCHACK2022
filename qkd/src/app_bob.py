@@ -6,16 +6,16 @@ from netqasm.sdk.external import NetQASMConnection, Socket
 
 from epr_socket import DerivedEPRSocket as EPRSocket
 
-f = open('/home/duarte/projects/QuTech/QCHACK2022/bob.txt', 'a')
+#f = open('/home/duarte/projects/QuTech/QCHACK2022/bob.txt', 'a')
 
-logger = get_netqasm_logger()
+logger = get_netqasm_logger("bob")
 
-#fileHandler = logging.FileHandler("logfile_bob.log")
-#logger.setLevel(logging.INFO)
-#logger.addHandler(fileHandler)
+# fileHandler = logging.FileHandler("logfile_bob.log")
+# logger.setLevel(logging.INFO)
+# logger.addHandler(fileHandler)
 
-test_probability   = 0.    # fraction of shared bits that are tested 
-mismatch_threshold = 0.5  # allowed fraction of mismatches bewteen bits (above this, no secure key is generated) 
+test_probability   = 0.5    # fraction of shared bits that are tested 
+mismatch_threshold = 0.14  # allowed fraction of mismatches bewteen bits (above this, no secure key is generated) 
 
 def flip(p):
     # Biased coin - probability of 0 is 1-p and probability of 1 is p
@@ -38,7 +38,7 @@ def main(app_config=None, key_length=16):
 
     with bob:
         # IMPLEMENT YOUR SOLUTION HERE
-        #logger.info("IMPLEMENT YOUR SOLUTION HERE - BOB")
+        logger.info("IMPLEMENT YOUR SOLUTION HERE - BOB")
 
         n = 0
         bases = []
@@ -75,7 +75,7 @@ def main(app_config=None, key_length=16):
                 #assert m_bob_corr == m_alice, "Bits should be equal!"
                 test = flip(test_probability) # whether they test this bit
                 
-                print(test, file = f)
+                #print(test, file = f)
 
                 if test:
                     accept_bit = str(m_bob_corr) #for alice to compare with hers
@@ -86,19 +86,25 @@ def main(app_config=None, key_length=16):
             else:
                 accept_bit = 'N' #tells alice to reject
 
+            logger.info("B0")
+
             # Send the outcome to alice
             socket.send(accept_bit)
 
-            if accept_bit == 0 or accept_bit == 1:
+            logger.info("B1")
+
+            if accept_bit == '0' or accept_bit == '1':
                 #Receive result of test
                 test_result = socket.recv()
                 bob.flush()
-                matches.append(test_result)
+                matches.append(int(test_result))
 
-    # logger.info("BOB BASES: {}".format(bases))
-    # logger.info("BOB KEY: {}".format(key))
+    logger.info("BOB BASES: {}".format(bases))
+    logger.info("BOB KEY: {}".format(key))
 
     mismatch_fraction = 1 - sum(matches) / len(matches)
+
+    logger.info("BOB FRACTION: {}".format(mismatch_fraction))
 
     # RETURN THE SECRET KEY HERE
     if mismatch_fraction > mismatch_threshold:
