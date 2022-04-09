@@ -76,11 +76,20 @@ def main(app_config=None, key_length=16):
 		    # send basis
 		    socket.send(basis.id)
 
-
-    # RETURN THE SECRET KEY HERE
-    return {
-        "secret_key": key,
-    }
+	# get correlation
+        S = socket.recv()
+	bob.flush()
+	        
+	if S > 0.9* 2*sqrt(2):
+	    # RETURN THE SECRET KEY HERE
+	    return {
+		"secret_key": key,
+	    }
+	else:
+	    # RETURN THE SECRET KEY HERE
+	    return {
+		"secret_key": None,
+	    }
 
 
 if __name__ == "__main__":

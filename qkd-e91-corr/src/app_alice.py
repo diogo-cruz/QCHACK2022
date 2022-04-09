@@ -173,6 +173,7 @@ def main(app_config=None, key_length=16):
             socket.send(basis.id)
             # Wait for Bob's basis
             bob_basis_id = socket.recv()
+            alice.flush()
 
             if bob_basis_id == basis.id:
                 key.append(measurement)
@@ -186,13 +187,17 @@ def main(app_config=None, key_length=16):
                 
 	        # save bob's measurement
 	        res = socket.recv()
+	        alice.flush()
                 bob_mis_res.append(res)
 	        res = socket.recv()
+	        alice.flush()
 	        bob_mis_base.append(res)
 	        
 	        
 	S = get_corr(alice_mis_base, alice_mis_res, bob_mis_base, bob_mis_res)
-	
+        socket.send(S)
+	alice.flush()
+	        
 	if S > 0.9* 2*sqrt(2):
 	    # RETURN THE SECRET KEY HERE
 	    return {
