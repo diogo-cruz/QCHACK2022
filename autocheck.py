@@ -6,7 +6,7 @@ from typing import Dict, List, Optional
 from test_case import TestCase
 
 EXPERIMENT_NAME = "autocheck-experiment"
-KEY_LENGTH = 128
+KEY_LENGTH = 16
 
 
 class BasicProtocolsTestCase(TestCase):
@@ -35,7 +35,7 @@ class BasicProtocolsTestCase(TestCase):
         return TestCase.Result(success=True, message=None)
 
 
-def run(test: TestCase, timeout: int = 120) -> bool:
+def run(test: TestCase, timeout: int=60) -> bool:
     test.configure()
 
     result = subprocess.run(
