@@ -35,6 +35,6 @@ https://uwspace.uwaterloo.ca/bitstream/handle/10012/3021/Thesis_ChrisErven_Submi
 
 To deal with noisy channels, we do not assume that Alice and Bob measure the same bit result when they choose the same basis.
 
-As such, we implemented a Information Reconciliation strategy to correct the keys. We implement Brassard's approach -- the Cascade algorithm with binary search correction -- on Bob's key. We found out that 4 correction steps were enough for large keys.
+As such, we implemented a Information Reconciliation strategy to correct the keys. We implement Brassard's approach -- the Cascade algorithm with binary search correction -- on Bob's key. We found out that 4 iteration steps were enough for large keys. For small keys (around 16), just 1 iteration step is usually enough. 
 
 We also found out that the Cascade algorithm without the back-trace steps works well enough for the key lengths that we used. As such, our Information Reconciliation algorithm is small but effective.
