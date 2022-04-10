@@ -13,7 +13,7 @@ For our submission, we implemented the two suggested protocols:
   cryptography without Bell’s theorem." Physical review letters 68.5 (1992):
   557.)
 
-In the noiseless scenario, the E91 protocol uses on average 2/9 of the EPR pairs to construct the key. We found that BBM92 has a better EPR efficieny, with `(1-p)/2`, where `p` is the fraction of EPR pairs measured in the same basis that we use for testing for Eve's presence. Assuming `p=0.5` and a binomial distribution for the noise, the probability that we miss Eve is 1%.
+In the noiseless scenario, the E91 protocol uses on average 2/9 of the EPR pairs to construct the key. We found that BBM92 has a better EPR efficieny, with `(1-p)/2`, where `p` is the fraction of EPR pairs measured in the same basis that we use for testing for Eve's presence. Assuming a binomial distribution for the noise, we choose the probability `p` such that we miss Eve's presence 1% of the time (capping it at `p=0.5`). This probability depends on the `key_length`, as bigger keys require a smaller fraction of the used pairs to check for Eve's presence.
 
 Therefore, we submited the BBM92 approach. However, we leave our E91 attempt in the `qkd-e91` folder for reference.
 
