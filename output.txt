@@ -6,10 +6,6 @@ Starting CASCADE:
 
 - Iteration 0 -
 Parity bit sent.
-Found parity error on one block. Starting binary search...
--- Parity bit sent.
--- Parity bit sent.
--- Parity bit sent.
 Parity bit sent.
 Parity bit sent.
 Parity bit sent.
@@ -17,61 +13,27 @@ Parity bit sent.
 Parity bit sent.
 Parity bit sent.
 Parity bit sent.
-Found parity error on one block. Starting binary search...
--- Parity bit sent.
--- Parity bit sent.
--- Parity bit sent.
-Parity bit sent.
-Parity bit sent.
-Parity bit sent.
-Found parity error on one block. Starting binary search...
--- Parity bit sent.
--- Parity bit sent.
 Parity bit sent.
 Parity bit sent.
 Parity bit sent.
 Parity bit sent.
 Parity bit sent.
-Found parity error on one block. Starting binary search...
--- Parity bit sent.
--- Parity bit sent.
--- Parity bit sent.
 Parity bit sent.
-Found parity error on one block. Starting binary search...
--- Parity bit sent.
--- Parity bit sent.
--- Parity bit sent.
+Parity bit sent.
+Parity bit sent.
+Parity bit sent.
 Parity bit sent.
 Parity bit sent.
 - Iteration 1 -
 Parity bit sent.
-Found parity error on one block. Starting binary search...
--- Parity bit sent.
--- Parity bit sent.
--- Parity bit sent.
--- Parity bit sent.
 Parity bit sent.
 Parity bit sent.
 Parity bit sent.
 Parity bit sent.
-Found parity error on one block. Starting binary search...
--- Parity bit sent.
--- Parity bit sent.
--- Parity bit sent.
--- Parity bit sent.
 Parity bit sent.
 Parity bit sent.
-Found parity error on one block. Starting binary search...
--- Parity bit sent.
--- Parity bit sent.
--- Parity bit sent.
 Parity bit sent.
 Parity bit sent.
-Found parity error on one block. Starting binary search...
--- Parity bit sent.
--- Parity bit sent.
--- Parity bit sent.
--- Parity bit sent.
 Parity bit sent.
 - Iteration 2 -
 Parity bit sent.

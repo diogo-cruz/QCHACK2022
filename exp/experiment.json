@@ -28,7 +28,7 @@
               "values": [
                 {
                   "name": "fidelity",
-                  "value": 0.9,
+                  "value": 1.0,
                   "scale_value": 1.0
                 }
               ]
