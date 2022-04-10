@@ -1,5 +1,6 @@
-# Our Submission to the QuTech Quantum Network Explorer QKD Challenge
-## O. Amaro, D. Cruz, D. Magano, J. Moutinho, S. Pratapsi
+# Our Submission
+## QuTech Quantum Network Explorer QKD Challenge
+### O. Amaro, D. Cruz, D. Magano, J. Moutinho, S. Pratapsi
 
 Please find here a description of our QKD implementation.
 
