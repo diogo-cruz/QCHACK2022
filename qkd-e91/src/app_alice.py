@@ -11,25 +11,24 @@ from math import pi, sqrt, log2
 import random
 from fractions import Fraction
 from collections import defaultdict, Counter
-f = open('/home/sagar/Projects/hackathons/qchack/2022/QCHACK2022/alice.txt', 'a')
 
 class Basis(Fraction):
     def rotate(self, qubit):
         num, den = self.as_integer_ratio()
         n = num if num >= 0 else 2*den - num
         d = int(log2(den))
-        theta = pi * (self if self > 0 else (2-self))
+        # theta = pi * (self if self > 0 else (2-self))
 
         qubit.rot_X(n, d)
 
 bases = {
-    'a3': Basis(0, 1),
-    'a2': Basis(1, 8),
     'a1': Basis(1, 4),
+    'a2': Basis(1, 8),
+    'a3': Basis(0, 1),
 
+    'b1': Basis(1, 8),
     'b2': Basis(0, 1),
     'b3': Basis(-1, 8),
-    'b1': Basis(1, 8),
 }
 
 def E(measurement_pairs):
@@ -51,13 +50,12 @@ def get_S(mismatched):
         + E(mismatched[a3, b3])
     )
 
-ACCEPT_THRESHOLD = 0.9 * 2 * sqrt(2)
+ACCEPT_THRESHOLD = 2.1
 
 ###############
 
 
 def main(app_config=None, key_length=16):
-    key_length = 32
     # Socket for classical communication
     socket = Socket("alice", "bob", log_config=app_config.log_config)
     # Socket for EPR generation
@@ -77,6 +75,7 @@ def main(app_config=None, key_length=16):
         mismatched = defaultdict(list)
 
         while len(key) < key_length:
+
             # Create EPR pair
             qubit = epr_socket.create_keep()[0]
 
@@ -91,7 +90,8 @@ def main(app_config=None, key_length=16):
             # Alice sends her basis first
             socket.send(basis_name)
             # Wait for Bob's basis
-            bob_basis = bases[socket.recv()]
+            bob_basis_name = socket.recv()
+            bob_basis = bases[bob_basis_name]
 
             if bob_basis == basis:
                 key.append(measurement)
@@ -105,9 +105,6 @@ def main(app_config=None, key_length=16):
 
         S = get_S(mismatched)
         accept_key = (S >= ACCEPT_THRESHOLD)
-
-        print(S, file=f)
-        print(sum(len(m) for m in mismatched.values()), file=f)
 
         socket.send('1' if accept_key else '0')
         alice.flush()

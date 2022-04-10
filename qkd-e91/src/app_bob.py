@@ -10,7 +10,6 @@ logger = get_netqasm_logger()
 from math import pi, log2
 import random
 from fractions import Fraction
-f = open('/home/sagar/Projects/hackathons/qchack/2022/QCHACK2022/alice.txt', 'a')
 
 class Basis(Fraction):
     def rotate(self, qubit):
@@ -35,8 +34,6 @@ bases = {
 
 
 def main(app_config=None, key_length=16):
-    key_length = 32
-    
     # Socket for classical communication
     socket = Socket("bob", "alice", log_config=app_config.log_config)
     # Socket for EPR generation
@@ -56,6 +53,9 @@ def main(app_config=None, key_length=16):
         key = []
 
         while len(key) < key_length:
+            runs -= 1
+
+            # Receive EPR pair
             qubit = epr_socket.recv_keep()[0]
             bob.flush()
 
@@ -68,7 +68,8 @@ def main(app_config=None, key_length=16):
             measurement = int(measurement)
 
             # Wait for Alice's basis
-            alice_basis = bases[socket.recv()]
+            alice_basis_name = socket.recv()
+            alice_basis = bases[alice_basis_name]
             # Bob sends his basis second
             socket.send(basis_name)
 
