@@ -10,7 +10,8 @@ logger = get_netqasm_logger()
 from math import pi
 import random
 from fractions import Fraction
-f = open('/home/sagar/Projects/hackathons/qchack/2022/QCHACK2022/alice.txt', 'a')
+#f = open('/home/sagar/Projects/hackathons/qchack/2022/QCHACK2022/alice.txt', 'a')
+f = open('/home/oscar/QCHACK2022/bob.txt', 'a')
 
 class Basis:
     def __init__(self, a, b=1):
@@ -67,29 +68,29 @@ def main(app_config=None, key_length=16):
 
             if alice_basis_id == basis.id:
                 key.append(measurement)
-                
             # if bases mismatch
-            if bob_basis_id != basis.id:
-            	# send bob's 
-		    # send measurement result
-		    socket.send(measurement)
-		    # send basis
-		    socket.send(basis.id)
+            else:
+                # send bob's 
+                # send measurement result
+                socket.send(str(measurement))
+                bob.flush()
+                # send basis
+                socket.send(basis.id)
+                bob.flush()
 
-	# get correlation
+        # receive calculated correlation factor
         S = socket.recv()
-	bob.flush()
-	        
-	if S > 0.9* 2*sqrt(2):
-	    # RETURN THE SECRET KEY HERE
-	    return {
-		"secret_key": key,
-	    }
-	else:
-	    # RETURN THE SECRET KEY HERE
-	    return {
-		"secret_key": None,
-	    }
+        bob.flush()
+        
+        if float(S) > 2:
+        	return {
+        		"secret_key": key,
+        	}
+        else:
+        	return {
+        		"secret_key": None,
+        	}
+
 
 
 if __name__ == "__main__":
