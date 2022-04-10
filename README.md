@@ -18,7 +18,17 @@ Therefore, we submited the BBM92 approach. However, we leave our E91 attempt in 
 
 ## 1b. Eavesdropper
 
-We implement our own version of the Eavesdropper.
+To test against interference by an eavesdropper we considered two Eves:
+
+- Eve 1: Randomly chooses between computational or +/- basis and measures the qubit.
+- Eve 2: Always measures in the computational basis.
+
+As implemented in the API, the eavesdropper is called for both Alice's and Bob's qubit. We tested both Eves for keys of 1000 bits and found that the final keys differ in about 33% of the bits for Eve 1 and 25% of the bits for Eve 2.
+
+Ultimately, we picked a threshold of 14% above which we discard the keys due to the possibility of Eve interfering. This comes from the upper
+bound on the tolerable error rate for key distribution secure against individual attacks, as discussed in the thesis of Chris Erven:
+
+https://uwspace.uwaterloo.ca/bitstream/handle/10012/3021/Thesis_ChrisErven_SubmittedToGSO.pdf
 
 ## 2. Noisy qubits
 
