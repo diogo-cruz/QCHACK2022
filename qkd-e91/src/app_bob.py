@@ -7,25 +7,36 @@ logger = get_netqasm_logger()
 
 ############### Added myself
 
-from math import pi
+from math import pi, log2
 import random
 from fractions import Fraction
 f = open('/home/sagar/Projects/hackathons/qchack/2022/QCHACK2022/alice.txt', 'a')
 
-class Basis:
-    def __init__(self, a, b=1):
-        fraction = Fraction(a, b)
-        self.fraction = fraction
-        self.theta = (fraction * pi) if a >=0 else (2*pi - fraction * pi)
-        self.id = str(self.fraction.as_integer_ratio())
-
+class Basis(Fraction):
     def rotate(self, qubit):
-        qubit.rot_Z(0, 0, angle=self.theta)
+        num, den = self.as_integer_ratio()
+        n = num if num >= 0 else 2*den - num
+        d = int(log2(den))
+        theta = pi * (self if self > 0 else (2-self))
+
+        qubit.rot_X(n, d)
+
+bases = {
+    'a3': Basis(0, 1),
+    'a2': Basis(1, 8),
+    'a1': Basis(1, 4),
+
+    'b2': Basis(0, 1),
+    'b3': Basis(-1, 8),
+    'b1': Basis(1, 8),
+}
 
 ###############
 
 
 def main(app_config=None, key_length=16):
+    key_length = 32
+    
     # Socket for classical communication
     socket = Socket("bob", "alice", log_config=app_config.log_config)
     # Socket for EPR generation
@@ -37,23 +48,19 @@ def main(app_config=None, key_length=16):
         epr_sockets=[epr_socket],
     )
 
+
     with bob:
         # IMPLEMENT YOUR SOLUTION HERE
-        logger.info("IMPLEMENT YOUR SOLUTION HERE")
+        # logger.info("IMPLEMENT YOUR SOLUTION HERE")
 
         key = []
-
-        bases = [
-            Basis(0),
-            Basis(15, 8),
-            Basis(1, 8),
-        ]
 
         while len(key) < key_length:
             qubit = epr_socket.recv_keep()[0]
             bob.flush()
 
-            basis = random.choice(bases)
+            basis_name = random.choice(['b1', 'b2', 'b3'])
+            basis = bases[basis_name]
             basis.rotate(qubit)
 
             measurement = qubit.measure()
@@ -61,17 +68,25 @@ def main(app_config=None, key_length=16):
             measurement = int(measurement)
 
             # Wait for Alice's basis
-            alice_basis_id = socket.recv()
+            alice_basis = bases[socket.recv()]
             # Bob sends his basis second
-            socket.send(basis.id)
+            socket.send(basis_name)
 
-            if alice_basis_id == basis.id:
+            if alice_basis == basis:
                 key.append(measurement)
+            else:
+                socket.send(str(measurement))
+                bob.flush()
+
+        accept_string = socket.recv()
+        bob.flush()
+
+        accept_key = True if accept_string == '1' else False
 
 
     # RETURN THE SECRET KEY HERE
     return {
-        "secret_key": key,
+        "secret_key": key if accept_key else None,
     }
 
 
