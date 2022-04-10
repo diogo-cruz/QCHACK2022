@@ -16,7 +16,7 @@ f = open(output_path, 'w')
 
 #test_probability -> Set by Bob
 
-mismatch_threshold = 0.14  # Allowed fraction of mismatches bewteen bits (above this, no secure key is generated) 
+mismatch_threshold = 0.146  # Allowed fraction of mismatches bewteen bits (above this, no secure key is generated) 
 
 info_recon         = True  # Set False to disable information reconciliation step
 

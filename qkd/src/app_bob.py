@@ -20,9 +20,9 @@ test_probability   = 0.5  # Fraction of shared bits that are tested. If the valu
                            # estimate of Eve's presence but requiring more shared entangled pairs
                            # to reach the final private key.
                            
-mismatch_threshold = 0.14  # Allowed fraction of mismatches bewteen bits (above this, no secure key is generated). 
+mismatch_threshold = 0.146  # Allowed fraction of mismatches bewteen bits (above this, no secure key is generated). 
 
-info_recon         = True  # Set False to disable information reconciliation step
+info_recon         = False  # Set False to disable information reconciliation step
 
 ########################
 #### AUX FUNCTIONS #####
