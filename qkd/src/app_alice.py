@@ -1,32 +1,32 @@
 import random
-import logging
+import os
 
 from netqasm.logging.glob import get_netqasm_logger
 from netqasm.sdk.external import NetQASMConnection, Socket
 
 from epr_socket import DerivedEPRSocket as EPRSocket
 
-f = open('/home/duarte/projects/QuTech/QCHACK2022/output.txt', 'a')
+# Output prints are stored in output.txt:
+output_path = os.getcwd() + "/output.txt"
+f = open(output_path, 'w')
 
-logger = get_netqasm_logger("alice")
+########################
+### INPUT PARAMETERS ###
+########################
 
-# fileHandler = logging.FileHandler("logfile_alice.log")
-# logger.setLevel(logging.INFO)
-# logger.addHandler(fileHandler)
+#test_probability -> Set by Bob
 
+mismatch_threshold = 0.14  # Allowed fraction of mismatches bewteen bits (above this, no secure key is generated) 
 
-### Parameters ###
-
-#test_probability   = 0.5    # fraction of shared bits that are tested 
-mismatch_threshold = 0.14  # allowed fraction of mismatches bewteen bits (above this, no secure key is generated) 
-
-info_recon = True
+info_recon         = True  # Set False to disable information reconciliation step
 
 
+########################
+#### AUX FUNCTIONS #####
+########################
 
-### Auxiliary functions ###
 
-def flip(p):
+def flip(p):  # Decides if shared pair is going to be tested for errors
     # Biased coin - probability of 0 is 1-p and probability of 1 is p
     if random.random() < p:
         return 1
@@ -68,9 +68,9 @@ def get_blocks(key, k):
 
 def binaryA(endnode, socket, block, idx = 0):
     # assuming there is an odd error parity, does binary search for one wrong bit
-    
+        
     n = len(block) 
-    
+        
     if n == 1:
         return 'finish'
     
@@ -106,7 +106,7 @@ def binaryA(endnode, socket, block, idx = 0):
 
 ### Block schedule for cascade information reconciliation protocol ###
 
-#estimate quantum bit error rate
+# Estimate quantum bit error rate
 QBER = 0.1
 
 def get_block_schedule(Q):
@@ -116,11 +116,12 @@ def get_block_schedule(Q):
     ks_int = [int(k) for k in ks]
     return ks_int
 
-#size of blocks over the various cascade iterations
+# Size of blocks over the various cascade iterations
 block_schedule = get_block_schedule(QBER)
 
-
-### Main function ###
+########################
+#### MAIN FUNCTION #####
+########################
 
 def main(app_config=None, key_length=16):
     # Socket for classical communication
@@ -135,8 +136,6 @@ def main(app_config=None, key_length=16):
     )
 
     with alice:
-        # IMPLEMENT YOUR SOLUTION HERE
-        logger.info("IMPLEMENT YOUR SOLUTION HERE - ALICE")
 
         n = 0
         bases = []
@@ -158,16 +157,12 @@ def main(app_config=None, key_length=16):
             alice.flush()
             m_alice = int(m_alice)
 
-            # Send the outcome to bob
+            # Send the basis to bob
             socket.send(str(basis))
-
-            logger.info("A0")
 
             # Receive the outcome from bob
             accept_bit = socket.recv() #can be 'Y' (to accept), 'N' (to reject) or '0'/'1' (to test)
             alice.flush()
-
-            logger.info("A1")
 
             if accept_bit == "Y":
                 key.append(m_alice)
@@ -184,28 +179,38 @@ def main(app_config=None, key_length=16):
                 #send result of test to bob
                 socket.send(str(test_result))
 
-    logger.info("ALICE BASES: {}".format(bases))
-    logger.info("ALICE KEY: {}".format(key))
-
-    mismatch_fraction = 1 - sum(matches) / len(matches)
-
-    logger.info("ALICE FRACTION: {}".format(mismatch_fraction))
-
+    if len(matches) > 0:
+        mismatch_fraction = 1 - sum(matches) / len(matches)
+        print("Mismatch fraction: "+str(mismatch_fraction), file = f)
+        if mismatch_fraction > mismatch_threshold:
+            print("Above mismatch threshold of "+str(mismatch_threshold), file=f)
+            print("Probably Eve, key rejected.", file=f)
+        else:
+            print("Below mismatch threshold of "+str(mismatch_threshold), file=f)
+            print("Key accepted, testing now for noise.", file=f)
+    else:
+        mismatch_fraction = 1
+        print("No matches were tested! Key will be rejected. Try increasing test_probability on Bob's side.", file=f)
+    
     # RETURN THE SECRET KEY HERE
     if mismatch_fraction > mismatch_threshold:
         return {
         "secret_key": None,
         }
     else:   
-
         if info_recon:
 
-            ### Cascade Information Reconciliation protocol ###
-            # assume that Alice has the 'correct' key and Bob has the noisy one
+            print("\nStarting CASCADE:\n", file=f)
+            
+            ###################################################
+            ### Cascade Information Reconciliation Protocol ###
+            ###################################################
+            
+            # Assume that Alice has the 'correct' key and Bob has the noisy one
 
             for iteration, block_size in enumerate(block_schedule):
-
-                # we shuffle the  keys in every iteration but the first
+                print("- Iteration "+str(iteration)+" -", file=f)
+                # We shuffle the  keys in every iteration except the first
                 if iteration == 0:
                     shuffle = [i for i in range(key_length)]
 
@@ -234,6 +239,7 @@ def main(app_config=None, key_length=16):
                         parity_bit = 'Y'
                     elif parity != bobs_parity:
                         parity_bit = 'N'
+                        print("Found parity error!", file=f)
 
                     #send answer to Bob
                     socket.send(parity_bit)
