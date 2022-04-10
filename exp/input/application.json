@@ -5,7 +5,7 @@
     "values": [
       {
         "name": "key_length",
-        "default_value": 16,
+        "default_value": 128,
         "minimum_value": 16,
         "maximum_value": 1024,
         "unit": "",

@@ -1,5 +1,6 @@
 import random
 import os
+from math import log
 
 from netqasm.logging.glob import get_netqasm_logger
 from netqasm.sdk.external import NetQASMConnection, Socket
@@ -14,7 +15,8 @@ f = open(output_path, 'a')
 ### INPUT PARAMETERS ###
 ########################
 
-test_probability   = 0.5  # Fraction of shared bits that are tested. If the value is too low
+failure_rate = 0.01 # Probability of Eve going unnoticed.
+max_test_probability   = 0.5  # Maximum fraction of shared bits that are tested. If the value is too low
                            # some runs will results in no tested bits, and the key gets rejected.
                            # If the value is too high many tests will be done, leading to a better
                            # estimate of Eve's presence but requiring more shared entangled pairs
@@ -22,7 +24,7 @@ test_probability   = 0.5  # Fraction of shared bits that are tested. If the valu
                            
 mismatch_threshold = 0.146  # Allowed fraction of mismatches bewteen bits (above this, no secure key is generated). 
 
-info_recon         = False  # Set False to disable information reconciliation step
+info_recon         = True  # Set False to disable information reconciliation step
 
 ########################
 #### AUX FUNCTIONS #####
@@ -133,6 +135,15 @@ def main(app_config=None, key_length=16):
     )
 
     with bob:
+
+        if info_recon:
+            socket.send('T')
+        else:
+            socket.send('F')
+
+        test_probability = min(max_test_probability, log(failure_rate)/(key_length*log(1-mismatch_threshold)))
+
+        print("Test probability is {}.".format(test_probability), file=f)
 
         n = 0
         bases = []

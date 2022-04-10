@@ -1,0 +1,86 @@
+Mismatch fraction: 0.0
+Below mismatch threshold of 0.146
+Key accepted, testing now for noise.
+
+Starting CASCADE:
+
+- Iteration 0 -
+Parity bit sent.
+Found parity error on one block. Starting binary search...
+-- Parity bit sent.
+-- Parity bit sent.
+-- Parity bit sent.
+Parity bit sent.
+Parity bit sent.
+Parity bit sent.
+Parity bit sent.
+Parity bit sent.
+Parity bit sent.
+Parity bit sent.
+Found parity error on one block. Starting binary search...
+-- Parity bit sent.
+-- Parity bit sent.
+-- Parity bit sent.
+Parity bit sent.
+Parity bit sent.
+Parity bit sent.
+Found parity error on one block. Starting binary search...
+-- Parity bit sent.
+-- Parity bit sent.
+Parity bit sent.
+Parity bit sent.
+Parity bit sent.
+Parity bit sent.
+Parity bit sent.
+Found parity error on one block. Starting binary search...
+-- Parity bit sent.
+-- Parity bit sent.
+-- Parity bit sent.
+Parity bit sent.
+Found parity error on one block. Starting binary search...
+-- Parity bit sent.
+-- Parity bit sent.
+-- Parity bit sent.
+Parity bit sent.
+Parity bit sent.
+- Iteration 1 -
+Parity bit sent.
+Found parity error on one block. Starting binary search...
+-- Parity bit sent.
+-- Parity bit sent.
+-- Parity bit sent.
+-- Parity bit sent.
+Parity bit sent.
+Parity bit sent.
+Parity bit sent.
+Parity bit sent.
+Found parity error on one block. Starting binary search...
+-- Parity bit sent.
+-- Parity bit sent.
+-- Parity bit sent.
+-- Parity bit sent.
+Parity bit sent.
+Parity bit sent.
+Found parity error on one block. Starting binary search...
+-- Parity bit sent.
+-- Parity bit sent.
+-- Parity bit sent.
+Parity bit sent.
+Parity bit sent.
+Found parity error on one block. Starting binary search...
+-- Parity bit sent.
+-- Parity bit sent.
+-- Parity bit sent.
+-- Parity bit sent.
+Parity bit sent.
+- Iteration 2 -
+Parity bit sent.
+Parity bit sent.
+Parity bit sent.
+Parity bit sent.
+Parity bit sent.
+- Iteration 3 -
+Parity bit sent.
+Parity bit sent.
+Parity bit sent.
+Test probability is 0.2279619871321034.

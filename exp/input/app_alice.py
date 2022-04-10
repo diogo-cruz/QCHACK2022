@@ -18,7 +18,7 @@ f = open(output_path, 'w')
 
 mismatch_threshold = 0.146  # Allowed fraction of mismatches bewteen bits (above this, no secure key is generated) 
 
-info_recon         = True  # Set False to disable information reconciliation step
+# info_recon         = True  # Set False to disable information reconciliation step
 
 
 ########################
@@ -137,6 +137,13 @@ def main(app_config=None, key_length=16):
     )
 
     with alice:
+
+        recon = socket.recv()
+        alice.flush()
+        if recon == 'T':
+            info_recon = True
+        else:
+            info_recon = False
 
         n = 0
         bases = []

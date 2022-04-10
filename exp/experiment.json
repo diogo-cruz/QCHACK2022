@@ -588,7 +588,7 @@
         "values": [
           {
             "name": "key_length",
-            "value": 16,
+            "value": 128,
             "scale_value": 1.0
           }
         ]
