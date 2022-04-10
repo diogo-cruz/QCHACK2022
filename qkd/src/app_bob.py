@@ -1,15 +1,17 @@
 import random
-import os
 from math import log
+import logging
 
 from netqasm.logging.glob import get_netqasm_logger
 from netqasm.sdk.external import NetQASMConnection, Socket
 
 from epr_socket import DerivedEPRSocket as EPRSocket
 
-# Output prints are stored in output.txt:
-output_path = os.getcwd() + "/output.txt"
-f = open(output_path, 'a')
+logger = get_netqasm_logger()
+
+fileHandler = logging.FileHandler("logfile.log")
+logger.setLevel(logging.INFO)
+logger.addHandler(fileHandler)
 
 ########################
 ### INPUT PARAMETERS ###
@@ -17,7 +19,7 @@ f = open(output_path, 'a')
 
 failure_rate = 0.01 # Probability of Eve going unnoticed.
 max_test_probability   = 0.5  # Maximum fraction of shared bits that are tested. If the value is too low
-                           # some runs will results in no tested bits, and the key gets rejected.
+                           # some runs will result in no tested bits, and the key gets rejected.
                            # If the value is too high many tests will be done, leading to a better
                            # estimate of Eve's presence but requiring more shared entangled pairs
                            # to reach the final private key.
@@ -141,9 +143,11 @@ def main(app_config=None, key_length=16):
         else:
             socket.send('F')
 
+        socket.send(str(mismatch_threshold))
+
         test_probability = min(max_test_probability, log(failure_rate)/(key_length*log(1-mismatch_threshold)))
 
-        print("Test probability is {}.".format(test_probability), file=f)
+        logger.info("Test probability is {}.".format(test_probability))
 
         n = 0
         bases = []

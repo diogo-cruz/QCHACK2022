@@ -1,25 +1,16 @@
 import random
-import os
+import logging
 
 from netqasm.logging.glob import get_netqasm_logger
 from netqasm.sdk.external import NetQASMConnection, Socket
 
 from epr_socket import DerivedEPRSocket as EPRSocket
 
-# Output prints are stored in output.txt:
-output_path = os.getcwd() + "/output.txt"
-f = open(output_path, 'w')
+logger = get_netqasm_logger()
 
-########################
-### INPUT PARAMETERS ###
-########################
-
-#test_probability -> Set by Bob
-
-mismatch_threshold = 0.146  # Allowed fraction of mismatches bewteen bits (above this, no secure key is generated) 
-
-# info_recon         = True  # Set False to disable information reconciliation step
-
+fileHandler = logging.FileHandler("logfile.log")
+logger.setLevel(logging.INFO)
+logger.addHandler(fileHandler)
 
 ########################
 #### AUX FUNCTIONS #####
@@ -83,7 +74,7 @@ def binaryA(endnode, socket, block, idx = 0):
         #receive Bob's parity
         bobs_parity = int(socket.recv())
         endnode.flush()
-        print("-- Parity bit sent.", file=f)
+        logger.info("-- Parity bit sent.")
 
         #determine if parities match
         if parity == bobs_parity:
@@ -145,6 +136,10 @@ def main(app_config=None, key_length=16):
         else:
             info_recon = False
 
+        mismatch_threshold = socket.recv()
+        alice.flush()
+        mismatch_threshold = float(mismatch_threshold)
+
         n = 0
         bases = []
         key = []
@@ -189,16 +184,16 @@ def main(app_config=None, key_length=16):
 
     if len(matches) > 0:
         mismatch_fraction = 1 - sum(matches) / len(matches)
-        print("Mismatch fraction: "+str(mismatch_fraction), file = f)
+        logger.info("Mismatch fraction: "+str(mismatch_fraction))
         if mismatch_fraction > mismatch_threshold:
-            print("Above mismatch threshold of "+str(mismatch_threshold), file=f)
-            print("Probably Eve, key rejected.", file=f)
+            logger.info("Above mismatch threshold of "+str(mismatch_threshold))
+            logger.info("Probably Eve, key rejected.")
         else:
-            print("Below mismatch threshold of "+str(mismatch_threshold), file=f)
-            print("Key accepted, testing now for noise.", file=f)
+            logger.info("Below mismatch threshold of "+str(mismatch_threshold))
+            logger.info("Key accepted, testing now for noise.")
     else:
         mismatch_fraction = 1
-        print("No matches were tested! Key will be rejected. Try increasing test_probability on Bob's side.", file=f)
+        logger.info("No matches were tested! Key will be rejected. Try increasing test_probability on Bob's side.")
     
     # RETURN THE SECRET KEY HERE
     if mismatch_fraction > mismatch_threshold:
@@ -208,7 +203,7 @@ def main(app_config=None, key_length=16):
     else:   
         if info_recon:
 
-            print("\nStarting CASCADE:\n", file=f)
+            logger.info("\nStarting CASCADE:\n")
             
             ###################################################
             ### Cascade Information Reconciliation Protocol ###
@@ -217,7 +212,7 @@ def main(app_config=None, key_length=16):
             # Assume that Alice has the 'correct' key and Bob has the noisy one
 
             for iteration, block_size in enumerate(block_schedule):
-                print("- Iteration "+str(iteration)+" -", file=f)
+                logger.info("- Iteration "+str(iteration)+" -")
                 # We shuffle the  keys in every iteration except the first
                 if iteration == 0:
                     shuffle = [i for i in range(key_length)]
@@ -240,7 +235,7 @@ def main(app_config=None, key_length=16):
 
                     #receive Bob's parity
                     bobs_parity = int(socket.recv())
-                    print("Parity bit sent.", file=f)
+                    logger.info("Parity bit sent.")
                     alice.flush()
 
                     #determine if parities match
@@ -248,7 +243,7 @@ def main(app_config=None, key_length=16):
                         parity_bit = 'Y'
                     elif parity != bobs_parity:
                         parity_bit = 'N'
-                        print("Found parity error on one block. Starting binary search...", file=f)
+                        logger.info("Found parity error on one block. Starting binary search...")
 
                     #send answer to Bob
                     socket.send(parity_bit)
