@@ -1,5 +1,4 @@
-# QuTech Quantum Network Explorer QKD Challenge
-## Our Submission
+# Our Submission
 
 Please find here a description of our QKD implementation.
 
