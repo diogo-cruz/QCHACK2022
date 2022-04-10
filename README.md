@@ -16,11 +16,11 @@ In the noiseless scenario, the E91 protocol uses on average 2/9 of the EPR pairs
 
 Therefore, we submited the BBM92 approach. However, we leave our E91 attempt in the `qkd-e91` folder for reference.
 
-## 1b. Eavesdropper (optional)
+## 1b. Eavesdropper
 
 We implement our own version of the Eavesdropper.
 
-## 2. Noisy qubits (difficult)
+## 2. Noisy qubits
 
 To deal with the noisy channels, we do not assume that Alice and Bob measure the same qubits when they choose the same basis.
 
