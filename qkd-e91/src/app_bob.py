@@ -16,19 +16,20 @@ class Basis(Fraction):
         num, den = self.as_integer_ratio()
         n = num if num >= 0 else 2*den - num
         d = int(log2(den))
-        theta = pi * (self if self > 0 else (2-self))
+        # theta = pi * (self if self > 0 else (2-self))
 
         qubit.rot_X(n, d)
 
 bases = {
-    'a3': Basis(0, 1),
-    'a2': Basis(1, 8),
     'a1': Basis(1, 4),
+    'a2': Basis(1, 8),
+    'a3': Basis(0, 1),
 
+    'b1': Basis(1, 8),
     'b2': Basis(0, 1),
     'b3': Basis(-1, 8),
-    'b1': Basis(1, 8),
 }
+
 
 ###############
 
