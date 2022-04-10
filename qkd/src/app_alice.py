@@ -83,6 +83,7 @@ def binaryA(endnode, socket, block, idx = 0):
         #receive Bob's parity
         bobs_parity = int(socket.recv())
         endnode.flush()
+        print("-- Parity bit sent.", file=f)
 
         #determine if parities match
         if parity == bobs_parity:
@@ -232,6 +233,7 @@ def main(app_config=None, key_length=16):
 
                     #receive Bob's parity
                     bobs_parity = int(socket.recv())
+                    print("Parity bit sent.", file=f)
                     alice.flush()
 
                     #determine if parities match
@@ -239,7 +241,7 @@ def main(app_config=None, key_length=16):
                         parity_bit = 'Y'
                     elif parity != bobs_parity:
                         parity_bit = 'N'
-                        print("Found parity error!", file=f)
+                        print("Found parity error on one block. Starting binary search...", file=f)
 
                     #send answer to Bob
                     socket.send(parity_bit)
