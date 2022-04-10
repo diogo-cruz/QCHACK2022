@@ -1,0 +1,2367 @@
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:34.910865'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:34.911008'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: 1'
+  MSG: '1'
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:35.093442'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 106
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:35.093599'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:35.138998'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:35.139120'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: 0'
+  MSG: '0'
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:35.354719'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 106
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:35.354883'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:35.591717'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:35.591924'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:35.836636'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:35.912128'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:35.912275'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:36.020123'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:36.077002'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:36.077245'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: Y'
+  MSG: Y
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:36.208356'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:36.233112'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:36.233278'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: Y'
+  MSG: Y
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:36.369418'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:36.607782'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:36.607924'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:36.739174'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:36.928419'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:36.928557'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: Y'
+  MSG: Y
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:37.068677'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:37.093453'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:37.093595'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:37.289964'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:37.344172'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:37.344287'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:37.559598'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:37.595708'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:37.595866'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: 1'
+  MSG: '1'
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:37.696811'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 106
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:37.696982'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:37.884748'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:37.884863'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: Y'
+  MSG: Y
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:38.013768'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:38.207560'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:38.207698'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:38.355503'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:38.599299'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:38.599441'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: 1'
+  MSG: '1'
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:38.733994'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 106
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:38.734104'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:38.763744'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:38.763877'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: 0'
+  MSG: '0'
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:39.169227'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 106
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:39.169379'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:39.372148'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:39.372287'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: 1'
+  MSG: '1'
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:39.486247'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 106
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:39.486441'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:39.597319'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:39.597540'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: 0'
+  MSG: '0'
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:39.704102'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 106
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:39.704297'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:39.732596'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:39.732727'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: 1'
+  MSG: '1'
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:39.848186'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 106
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:39.848351'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:39.871470'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:39.871602'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:40.152624'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:40.285104'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:40.285239'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:40.434177'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:40.515658'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:40.515784'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: Y'
+  MSG: Y
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:40.761787'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:40.958624'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:40.958745'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: 1'
+  MSG: '1'
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:41.061573'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 106
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:41.061746'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:41.101934'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:41.102094'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:41.236374'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:41.414140'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:41.414278'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:41.553107'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:41.652805'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:41.652950'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: Y'
+  MSG: Y
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:41.820966'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:41.888754'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:41.888901'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:42.002459'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:42.033081'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:42.033190'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: 0'
+  MSG: '0'
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:42.168222'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 106
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:42.168333'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:42.212051'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:42.212173'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:42.403084'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:42.471384'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:42.471644'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:42.597055'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:42.704134'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:42.704271'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: 1'
+  MSG: '1'
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:42.807976'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 106
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:42.808084'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:42.863842'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:42.863958'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:43.090928'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:43.238024'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:43.238160'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:43.388803'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:43.780852'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:43.780995'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: 1'
+  MSG: '1'
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:43.894517'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 106
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:43.894691'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:43.987243'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:43.987382'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:44.169550'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:44.220323'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:44.220472'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:44.322874'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:44.391001'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:44.391159'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:44.653177'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:44.676867'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:44.677101'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:44.810683'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:44.884981'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:44.885115'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:45.138848'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:45.200893'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:45.201013'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: Y'
+  MSG: Y
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:45.387784'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:45.483168'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:45.483274'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:45.622755'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:45.648918'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:45.649040'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:45.919758'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:46.117332'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:46.117465'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: 1'
+  MSG: '1'
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:46.233264'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 106
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:46.233422'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:46.454647'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:46.454836'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: 0'
+  MSG: '0'
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:46.593608'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 106
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:46.593803'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:46.803706'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:46.803843'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:46.916336'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:47.020227'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:47.020394'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:47.122438'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:47.158829'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:47.158966'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:47.284874'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:47.501407'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:47.501558'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: 1'
+  MSG: '1'
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:47.658384'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 106
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:47.658579'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:47.765951'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:47.766075'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:47.953186'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:48.147886'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:48.148030'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: 0'
+  MSG: '0'
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:48.258535'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 106
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:48.258713'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:48.319066'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:48.319201'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: Y'
+  MSG: Y
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:48.441957'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:48.559650'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:48.559765'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:48.683906'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:48.735695'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:48.735827'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:48.848034'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:48.883496'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:48.883628'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:49.069257'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:49.178999'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:49.179132'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: 0'
+  MSG: '0'
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:49.312127'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 106
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:49.312295'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:49.424039'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:49.424183'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: Y'
+  MSG: Y
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:49.572610'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:49.614412'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:49.614539'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:49.746889'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:49.777196'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:49.777334'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:49.879352'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:49.910078'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:49.910187'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: Y'
+  MSG: Y
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:50.081695'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:50.203977'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:50.204123'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: 1'
+  MSG: '1'
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:50.421631'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 106
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:50.421835'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:50.439862'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:50.440012'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:50.552744'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:50.764070'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:50.764216'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: Y'
+  MSG: Y
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:50.978159'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:51.108502'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:51.108623'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:51.262561'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:51.291497'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:51.291627'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: Y'
+  MSG: Y
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:51.530141'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:51.830088'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:51.830227'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:51.963556'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:52.343081'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:52.343259'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:52.497401'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:52.628081'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:52.628248'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:52.734485'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:52.927465'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:52.927585'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: Y'
+  MSG: Y
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:53.055006'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:53.220017'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:53.220146'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:53.388076'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:53.407835'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:53.407987'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:53.519684'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:53.585394'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:53.585523'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:53.697815'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:53.859038'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:53.859165'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: 0'
+  MSG: '0'
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:54.063783'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 106
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:54.063984'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:54.102377'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:54.102492'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: Y'
+  MSG: Y
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:54.206307'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:54.489387'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:54.489511'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: 0'
+  MSG: '0'
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:54.592429'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 106
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:54.592598'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:54.789903'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:54.790028'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:54.936669'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:55.122144'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:55.122309'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:55.247623'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:55.374318'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:55.374474'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:55.485102'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:55.536698'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:55.536828'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:55.659142'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:55.853388'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:55.853527'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:55.969040'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:56.340312'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:56.340444'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: Y'
+  MSG: Y
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:56.488578'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 0'
+  MSG: '0'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:56.591422'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:56.591546'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: N'
+  MSG: N
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:56.692944'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 83
+  INS: SEND
+  LOG: 'Send classical message to bob: 1'
+  MSG: '1'
+  REC: bob
+  SEN: alice
+  SOD: 0
+  WCT: '2022-04-10 04:02:56.771966'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: WAIT_RECV
+  LOG: Waiting for a classical message from bob...
+  MSG: null
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:56.772130'
+- HFL: /mnt/c/Users/duart/projects/QuTech/QCHACK2022/exp/input/app_alice.py
+  HLN: 88
+  INS: RECV
+  LOG: 'Message received from bob: Y'
+  MSG: Y
+  REC: alice
+  SEN: bob
+  SOD: 0
+  WCT: '2022-04-10 04:02:56.877922'
