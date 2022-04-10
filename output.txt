@@ -1,4 +1,4 @@
-Mismatch fraction: 0.0
+Mismatch fraction: 0.04761904761904767
 Below mismatch threshold of 0.146
 Key accepted, testing now for noise.
 
@@ -13,7 +13,15 @@ Parity bit sent.
 Parity bit sent.
 Parity bit sent.
 Parity bit sent.
+Found parity error on one block. Starting binary search...
+-- Parity bit sent.
+-- Parity bit sent.
+-- Parity bit sent.
 Parity bit sent.
+Found parity error on one block. Starting binary search...
+-- Parity bit sent.
+-- Parity bit sent.
+-- Parity bit sent.
 Parity bit sent.
 Parity bit sent.
 Parity bit sent.
@@ -26,7 +34,17 @@ Parity bit sent.
 Parity bit sent.
 - Iteration 1 -
 Parity bit sent.
+Found parity error on one block. Starting binary search...
+-- Parity bit sent.
+-- Parity bit sent.
+-- Parity bit sent.
+-- Parity bit sent.
 Parity bit sent.
+Found parity error on one block. Starting binary search...
+-- Parity bit sent.
+-- Parity bit sent.
+-- Parity bit sent.
+-- Parity bit sent.
 Parity bit sent.
 Parity bit sent.
 Parity bit sent.
